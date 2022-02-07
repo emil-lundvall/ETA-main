@@ -1,0 +1,140 @@
+.team {
+  height: 100vh;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.team-text-container {
+  margin-bottom: 50px;
+}
+
+.team-text-container h1 {
+  color: white;
+  font-size: 40px;
+}
+
+.team-text-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.team-text-title b {
+  color: #1541d1;
+}
+
+.team-text-under {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.team-text-under p {
+  color: #d8d8d8;
+  font-size: 20px;
+  width: 700px;
+  text-align: center;
+}
+
+.team-staff-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.team-staff-inner-container {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-staff-item {
+  background-color: #030914;
+  border: solid 2px #071020;
+  border-radius: 13px;
+  padding: 25px;
+  width: 320px;
+}
+
+.staff-row-one {
+  display: flex;
+  align-items: center;
+}
+
+.staff-row-two {
+  display: flex;
+  align-items: center;
+}
+
+.staff-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 260px;
+  border-radius: 13px;
+  margin-bottom: 15px;
+}
+
+#staff-one {
+  background-image: url(./../../../images/team-member-1.png);
+}
+
+#staff-two {
+  background-image: url(./../../../images/team-member-1.png);
+}
+
+#staff-three {
+  background-image: url(./../../../images/team-member-1.png);
+}
+
+.staff-row-two h1 {
+  color: #ffffff;
+
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.staff-row-two p {
+  color: #ffffff;
+  opacity: 70%;
+
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.social-container {
+  width: 50%;
+  min-width: 125px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 35px;
+  height: 35px;
+  text-align: center;
+
+  background-color: #071020;
+  border-radius: 100%;
+  transition: all 0.8s;
+}
+
+.social-item:hover {
+  transform: scale(1.1);
+  background-color: #1541d1 !important;
+  opacity: 100%;
+}
+
+.social-item i {
+  font-size: 15px;
+  line-height: 0px;
+  color: white;
+  text-align: center;
+  opacity: 100%;
+}

@@ -1,0 +1,9 @@
+.review {
+  background-color: #050e1e;
+  z-index: 1;
+}
+
+.inner-section-review {
+  display: flex;
+  height: 100vh;
+}

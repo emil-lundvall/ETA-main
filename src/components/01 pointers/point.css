@@ -1,0 +1,48 @@
+.point-container {
+  height: 100vh;
+  position: fixed;
+  right: 40px;
+  z-index: 66;
+  scroll-snap-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.point-container ul {
+  margin: 0;
+}
+
+.point-item {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.point-item-last {
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.point-link {
+  width: 4px;
+  height: 4px;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
+  opacity: 1;
+}
+
+.point-link:hover {
+  opacity: 0.8;
+  display: inline-block;
+}
+
+.active {
+  background-color: white;
+  border: solid white 1px;
+  width: 8.5px;
+  height: 8.5px;
+}
