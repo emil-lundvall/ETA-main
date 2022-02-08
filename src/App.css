@@ -31,7 +31,7 @@ a {
 }
 
 .default-section {
-  min-height: 800px;
+  min-height: 100vh;
   padding-top: 2.5%;
   padding-bottom: 2.5%;
   display: flex;

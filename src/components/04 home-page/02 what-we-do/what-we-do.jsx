@@ -63,7 +63,7 @@ function whatWeDo() {
                                     <h1>Analysis & alignement</h1>
                                 </div>
                                 <div className="grid-item-row-3">
-                                    <p>Matching Brands with the right talent</p>
+                                    <p>Matching Brands with the right talent.</p>
                                 </div>
                             </div>
                         </div>
@@ -74,7 +74,7 @@ function whatWeDo() {
                                     <h1>Esport Team Development</h1>
                                 </div>
                                 <div className="grid-item-row-3">
-                                    <p>Talent- and team identification. Team building, Training and Infrastructure investments</p>
+                                    <p>Talent- and team identification. Team building, Training and Infrastructure investments.</p>
                                 </div>
                             </div>
                         </div>
@@ -85,7 +85,7 @@ function whatWeDo() {
                                     <h1>Merchandising & Licensing</h1>
                                 </div>
                                 <div className="grid-item-row-3">
-                                    <p>Develop concepts and partnerships that generate revenue and consumer loyalty for all parties</p>
+                                    <p>Develop concepts and partnerships that generate revenue and consumer loyalty for all parties.</p>
                                 </div>
                             </div>
                         </div>
@@ -184,7 +184,7 @@ function whatWeDo() {
                                     <h1>Represention</h1>
                                 </div>
                                 <div className="grid-item-row-3">
-                                    <p>A long term perspective service, continuous and consistent building your brand image towards communities within the gaming ecosystem</p>
+                                    <p>A long term perspective service, continuous and consistent building your brand image towards communities within the gaming ecosystem.</p>
                                 </div>
                             </div>
                         </div>

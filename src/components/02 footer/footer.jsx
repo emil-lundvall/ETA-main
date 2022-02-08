@@ -37,9 +37,9 @@ function tryUs() {
                                 </div>
                             </div>
                             <div className="cl-social-media-container">
-                                <a className="social-item"><i className="bi bi-instagram"></i></a> 
-                                <a className="social-item"><i className="bi bi-facebook"></i></a> 
-                                <a className="social-item"><i className="bi bi-linkedin"></i></a> 
+                                <a className="social-item" href="https://www.instagram.com/esportstalentagency/" target="_blank"><i className="bi bi-instagram"></i></a> 
+                                <a className="social-item" href="https://www.facebook.com/esportstalentagencyab" target="_blank"><i className="bi bi-facebook"></i></a> 
+                                <a className="social-item" href="https://www.linkedin.com/company/esports-talent-agency-ab" target="_blank"><i className="bi bi-linkedin"></i></a> 
                             </div>
                         </div>
                     </div>
