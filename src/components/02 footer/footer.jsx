@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './../../App.css';
 import '../../scroll-it/scrollIt.js';
 import './footer.css';
-import ContactUs from './ContactUs.js';
+import ContactUs from './ContactUs.jsx';
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import Popup from './Popup';
 
-function tryUs() {
+function Footer() {
+    const [showPopup, setShowPopup] = useState(false);
 
     return (
         <div className="default-section-contact" data-scroll-index="6">
@@ -37,16 +39,20 @@ function tryUs() {
                                 </div>
                             </div>
                             <div className="cl-social-media-container">
-                                <a className="social-item" href="https://www.instagram.com/esportstalentagency/" target="_blank"><i className="bi bi-instagram"></i></a> 
-                                <a className="social-item" href="https://www.facebook.com/esportstalentagencyab" target="_blank"><i className="bi bi-facebook"></i></a> 
-                                <a className="social-item" href="https://www.linkedin.com/company/esports-talent-agency-ab" target="_blank"><i className="bi bi-linkedin"></i></a> 
+                                <a className="social-item" href="https://www.instagram.com/esportstalentagency/" target="_blank"><i className="bi bi-instagram"></i></a>
+                                <a className="social-item" href="https://www.facebook.com/esportstalentagencyab" target="_blank"><i className="bi bi-facebook"></i></a>
+                                <a className="social-item" href="https://www.linkedin.com/company/esports-talent-agency-ab" target="_blank"><i className="bi bi-linkedin"></i></a>
                             </div>
                         </div>
                     </div>
 
                     <div className="contact-right">
-                        <div className="cr-form-container">
-                            <ContactUs />
+                        <div className="cr-form-wrapper">
+                            <Popup showPopup={showPopup} setShowPopup={setShowPopup} />
+
+                            <div className="cr-form-container">
+                                <ContactUs setShowPopup={setShowPopup} />
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -65,4 +71,4 @@ function tryUs() {
     );
 }
 
-export default tryUs
+export default Footer
