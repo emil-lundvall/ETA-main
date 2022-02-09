@@ -32,11 +32,11 @@
   border-radius: 13px;
   padding: 20px;
   margin-bottom: 20px;
-  transition: all 0.8s;
+  transition: all 0.4s;
   border: solid 2px #1541d100;
 }
 
-.select-opt:hover {
+.select-opt:not(.active-opt):hover {
   background-color: #0b1b39;
   border: solid 2px #1541d1;
 }
@@ -56,12 +56,7 @@
 .sa-img {
   width: 65px;
   height: 65px;
-
-  background-image: url(./../../../images/emil-lundvall.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-
+  object-fit: cover;
   border-radius: 100%;
 }
 
@@ -80,6 +75,7 @@
   font-size: 14px;
   font-weight: 300;
   letter-spacing: 0.5px;
+  color: #d8d8d8;
 }
 
 .tm-divider-container {
@@ -97,11 +93,51 @@
   margin-bottom: 25px;
 }
 
-.tm-selected {
+.tm-selected-wrapper {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 75%;
+}
+
+@keyframes tm-selected-inactive {
+  0% {
+    z-index: 2;
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  50% {
+    opacity: 0;
+    z-index: -1;
+    transform: translateY(100px);
+  }
+}
+
+@keyframes tm-selected-active {
+  from {
+    z-index: -1;
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  to {
+    z-index: 2;
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.tm-selected {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+  animation: tm-selected-inactive 600ms ease-in-out;
+}
+
+.tm-selected-active {
+  opacity: 1;
+  z-index: 2;
+  animation: tm-selected-active 600ms ease-in-out;
 }
 
 .tm-selected-item {
@@ -113,11 +149,11 @@
   font-weight: 600;
 }
 
+
 .tm-selected-inner-item p {
   font-size: 16px;
   font-style: italic;
   color: #d8d8d8;
-
   width: 600px;
 }
 
