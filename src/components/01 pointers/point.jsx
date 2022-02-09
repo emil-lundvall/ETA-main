@@ -10,7 +10,8 @@ function Pointer() {
           <li className="point-item"><a className="point-link" data-scroll-nav="2" href="#"></a></li>
           <li className="point-item"><a className="point-link" data-scroll-nav="3" href="#"></a></li>
           <li className="point-item"><a className="point-link" data-scroll-nav="4" href="#"></a></li>
-          <li className="point-item-last"><a className="point-link" data-scroll-nav="5" href="#"></a></li>
+          <li className="point-item"><a className="point-link" data-scroll-nav="5" href="#"></a></li>
+          <li className="point-item-last"><a className="point-link" data-scroll-nav="6" href="#"></a></li>
         </ul>     
       </div>
     );

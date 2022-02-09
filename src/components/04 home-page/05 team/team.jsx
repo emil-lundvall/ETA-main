@@ -5,9 +5,9 @@ import './team.css';
 
 function team() {
     return (
-        <div className="default-section" data-scroll-index="4">
+        <div className="default-section">
             <div className="default-inner-section">
-                <div className="story-text-container">
+                <div className="story-text-container" data-scroll-index="4">
                     <div className="story-title">
                         <h1>Our story<b>.</b></h1>
                     </div>
@@ -17,11 +17,11 @@ function team() {
                     </div>
                 </div>
 
-                <div className="team-text-container">
+                <div className="team-text-container" data-scroll-index="5">
                     <div className="team-text-title">
                         <h1>Meet our team<b>.</b></h1>
                     </div>
-                </div>
+                
 
                 <div className="team-staff-container">
                     <div className="team-staff-inner-container">
@@ -77,6 +77,7 @@ function team() {
                         </div>
 
                     </div>
+                </div>
                 </div>
             </div>
         </div>

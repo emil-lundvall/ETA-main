@@ -5,6 +5,7 @@
 }
 
 .contact-container {
+  height: 86vh;
   min-height: 796px;
   width: 100%;
   display: flex;
@@ -194,7 +195,8 @@ form label {
   width: 100%;
 }
 
-form input, form textarea {
+form input,
+form textarea {
   border: solid 2px #0d1f3a;
   border-radius: 13px;
   background-color: #030914;
