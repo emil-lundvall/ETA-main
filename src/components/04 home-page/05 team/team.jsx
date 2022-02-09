@@ -12,7 +12,8 @@ function team() {
                         <h1>Our story<b>.</b></h1>
                     </div>
                     <div className="story-text">
-                        <p>Growing up with a game in your pocket or almost at lesast within arms length reach, we are gamers at heart. <br></br><br></br>Deeply embedded in gaming, streaming and Twitch cultures, we are always on the pulse of the latest trends. We know the content that ticks for Gen Z. ETA is the fruit of two young entrepreneurs Emil Lundvall and Noah Karlberg. Founded in Sweden 2022 but with roots leading back to 2014 when Noah became an active streamer and youtuber. Our unique history and insider perspective gives us the opportunity to cater to both brands and esports talents needs with a wide range of services. Bringing the best practices and concepts of both worlds together, leveraging the highest quality output.</p>
+                        <h2>Growing up with a game in your pocket or almost at lesast within arms length reach, we are gamers at heart.</h2>
+                        <p>Deeply embedded in gaming, streaming and Twitch cultures, we are always on the pulse of the latest trends. We know the content that ticks for Gen Z. ETA is the fruit of two young entrepreneurs Emil Lundvall and Noah Karlberg. Founded in Sweden 2022 but with roots leading back to 2014 when Noah became an active streamer and youtuber. Our unique history and insider perspective gives us the opportunity to cater to both brands and esports talents needs with a wide range of services. Bringing the best practices and concepts of both worlds together, leveraging the highest quality output.</p>
                     </div>
                 </div>
 
