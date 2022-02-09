@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './../../../App.css';
 import '../../../scroll-it/scrollIt.js';
 import './testimonials.css';
@@ -6,7 +6,21 @@ import Naia from './../../../images/naia-logo.png';
 import Foodora from './../../../images/foodora-logo.png';
 import EscoWeb from './../../../images/escoweb-logo.png';
 
-function testimonials() {
+const testimonials = [
+    {name: "Sebrin Poli", brand: "The Naia Initiative", brandLogo: Naia, desc: {
+        title: "It was a great experience!"
+    }},
+    {name: "Frida Jonsson", brand: "Nick's", brandLogo: Foodora},
+    {name: "Anton Persson", brand: "Esco Web", brandLogo: EscoWeb},
+]
+
+function Testimonials() {
+    const [selected, setSelected] = useState(0);
+    
+    const handleSelection = (index) => {
+        setSelected(index);
+    }
+
     return (
         <div className="default-section review" data-scroll-index="3">
             <div className="default-inner-section">
@@ -16,40 +30,20 @@ function testimonials() {
 
                 <div className="tm-lower-container">
                     <div className="tm-select">
-                        <a className="select-opt active-opt opt-one">
-                            <div className="select-avatar">
-                                <div className="sa-img"></div>
-                            </div>
-                            <div className="select-text">
-                                <div className="select-text-inner">
-                                    <h1>Sebrin Poli</h1>
-                                    <p>The Naia Initiative</p>
+                        {testimonials.map((testimonial, index) => (
+                            // active-opt
+                            <a className={`select-opt ${index === selected ? "active-opt" : ""}`} onClick={() => handleSelection(index)}>
+                                <div className="select-avatar">
+                                    <div className="sa-img"></div>
                                 </div>
-                            </div>
-                        </a>
-
-                        <a className="select-opt opt-two">
-                            <div className="select-avatar">
-                                <div className="sa-img"></div>
-                            </div>
-                            <div className="select-text">
-                                <div className="select-text-inner">
-                                    <h1>Frida Jonsson</h1>
-                                    <p>Nick's</p>
+                                <div className="select-text">
+                                    <div className="select-text-inner">
+                                        <h1>{testimonial.name}</h1>
+                                        <p>{testimonial.brand}</p>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
-                        <a className="select-opt opt-three">
-                            <div className="select-avatar">
-                                <div className="sa-img"></div>
-                            </div>
-                            <div className="select-text">
-                                <div className="select-text-inner">
-                                    <h1>Anton Persson</h1>
-                                    <p>Esco Web</p>
-                                </div>
-                            </div>
-                        </a>
+                            </a>
+                        ))}
                     </div>
 
                     <div className="tm-selected">
@@ -78,4 +72,4 @@ function testimonials() {
     )
 }
 
-export default testimonials
+export default Testimonials
