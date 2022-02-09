@@ -5,7 +5,7 @@ import './team.css';
 
 function team() {
     return (
-        <div className="default-section" data-scroll-index="5">
+        <div className="default-section" data-scroll-index="4">
             <div className="default-inner-section">
                 <div className="story-text-container">
                     <div className="story-title">

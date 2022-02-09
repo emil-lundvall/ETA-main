@@ -10,7 +10,7 @@ function Footer() {
     const [showPopup, setShowPopup] = useState(false);
 
     return (
-        <div className="default-section-contact" data-scroll-index="6">
+        <div className="default-section-contact" data-scroll-index="5">
             <div className="contact-container">
                 <div className="contact-inner-container">
                     <div className="contact-left">
