@@ -1,4 +1,4 @@
-import React,{Component} from 'react';
+import React, { Component } from 'react';
 import './../../../App.css';
 import '../../../scroll-it/scrollIt.js';
 import './hero.css';
@@ -15,12 +15,12 @@ function home() {
                         <p>We are a full-service esports marketing and talent agency. Together with our clients and partners we are reshaping entertainment and the way people engage with esports.<br></br><br></br>Our deep knowledge of gaming culture and communities, paired with digital know-how and marketing skills creates value and new streams of  revenue for brands and talent.</p>
                     </div>
                     <div className="home-buttons-container">
-                        <a className="help-btn">Brands ><i></i></a>
-                        <a className="contact-btn">Talents ><i></i></a>
+                        <a className="contact-btn">Brands</a>
+                        <a className="contact-btn">Talents</a>
                     </div>
                 </div>
                 <div className="home-right-container">
-                    
+
                 </div>
             </div>
             <div className="home-background"></div>

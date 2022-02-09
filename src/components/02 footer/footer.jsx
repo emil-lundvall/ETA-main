@@ -23,17 +23,17 @@ function Footer() {
                             <div className="cl-contact-info-container">
                                 <div className="cl-contact-info-inner-container">
                                     <a className="cl-contact-item">
-                                        <i class="bi bi-telephone-fill"></i>
+                                        <i className="bi bi-telephone-fill"></i>
                                         <p>+46 76-127 01 02</p>
                                     </a>
 
                                     <a className="cl-contact-item">
-                                        <i class="bi bi-envelope-fill"></i>
+                                        <i className="bi bi-envelope-fill"></i>
                                         <p>info@e-sportagency.com</p>
                                     </a>
 
                                     <a className="cl-contact-item">
-                                        <i class="bi bi-geo-alt-fill"></i>
+                                        <i className="bi bi-geo-alt-fill"></i>
                                         <p>Uddvägen 28A, Lidingö</p>
                                     </a>
                                 </div>

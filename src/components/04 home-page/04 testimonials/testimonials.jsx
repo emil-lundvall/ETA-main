@@ -33,7 +33,7 @@ const testimonials = [
         },
         desc: {
             title: "It was a great experience!",
-            text: "The collaboration with ETA has given us at Nick&#39;s the opportunity to explore Twitch as a channel to reach a new target group for the brand. The team has shown great commitment to the project and communication and project management has been perceived as safe and smooth."
+            text: "The collaboration with ETA has given us at Nick's the opportunity to explore Twitch as a channel to reach a new target group for the brand. The team has shown great commitment to the project and communication and project management has been perceived as safe and smooth."
         }
     },
     {
@@ -67,7 +67,7 @@ function Testimonials() {
         const timeout = setTimeout(() => {
             const index = selected === testimonials.length - 1 ? 0 : selected + 1;
             setSelected(index);
-        }, 7500)
+        }, 10000)
 
         setTimeoutId(timeout);
     }, [selected])
@@ -83,7 +83,7 @@ function Testimonials() {
                     <div className="tm-select">
                         {testimonials.map((testimonial, index) => (
                             // active-opt
-                            <a className={`select-opt ${index === selected ? "active-opt" : ""}`} onClick={() => handleSelection(index)}>
+                            <a className={`select-opt ${index === selected ? "active-opt" : ""}`} onClick={() => handleSelection(index)} key={index}>
                                 <div className="select-avatar">
                                     <img className="sa-img" src={testimonial.img} alt={testimonial.name} />
                                 </div>
@@ -99,7 +99,7 @@ function Testimonials() {
 
                     <div className="tm-selected-wrapper">
                         {testimonials.map((testimonial, index) => (
-                            <div className={`tm-selected ${index === selected ? "tm-selected-active" : ""}`}>
+                            <div className={`tm-selected ${index === selected ? "tm-selected-active" : ""}`} key={index}>
                                 <div className="tm-selected-item tm-item-one">
                                     <div className="tm-selected-inner-item">
                                         <h1>{testimonial.desc.title}</h1>

@@ -57,34 +57,47 @@
 
 .home-buttons-container {
   display: flex;
+  align-items: center;
+  gap: 24px;
 }
 
 .home-buttons-container a {
   text-decoration: none;
   color: white;
   font-size: 17px;
-  color: white;
   font-weight: 400;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 125ms;
+  border: 1px solid white;
 
   display: flex;
   justify-content: center;
 }
 
-.help-btn {
-  border: solid 2px #1541d1;
-  border-radius: 13px;
-  background-color: #1541d1;
-  padding: 5px 25px 5px 25px;
+.home-buttons-container a:hover {
+  background-color: white;
+  color: #000;
+}
 
-  margin-right: 20px;
-  cursor: pointer;
+/*
+.help-btn {
+  border: solid 1px #1541d1;
+  background-color: #1541d1;
+}
+
+.help-btn {
+  border: solid 1px #66A0ED;
 }
 
 .contact-btn {
-  border: solid 2px white;
-  border-radius: 13px;
+  /* border: solid 1px white; 
   background-color: none;
-  padding: 5px 25px 5px 25px;
-
-  cursor: pointer;
 }
+
+.contact-btn:hover {
+  background-color: rgb(255 255 255 / 0.5);
+  color: #fff;
+}
+*/
