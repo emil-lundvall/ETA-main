@@ -7,8 +7,7 @@ import Home from './01 hero/hero';
 import WhatWeDo from './02 what-we-do/what-we-do';
 import Cases from './03 cases/cases';
 import Testimonials from './04 testimonials/testimonials';
-import OurStory from './05 our-story/our-story';
-import Team from './06 team/team';
+import Team from './05 team/team';
 import Footer from './../02 footer/footer';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import '../01 header-v1/headerEffect.js';
@@ -23,7 +22,6 @@ function Homepage() {
         <WhatWeDo />
         <Cases />
         <Testimonials />
-        <OurStory />
         <Team />
         <Footer />
       </div>

@@ -1,16 +1,40 @@
-.team {
-  height: 100vh;
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
+.story-text-container {
+  margin-bottom: 100px;
+  width: 100%;
 }
 
-.team-text-container {
-  margin-bottom: 50px;
+.story-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.story-title h1 {
+  color: white;
+  font-size: 40px;
+}
+
+.story-title b {
+  color: #1541d1;
+}
+
+.story-text {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.story-text p {
+  font-size: 22px;
+  font-weight: 500;
+  color: #d8d8d8;
+  width: 60%;
 }
 
 .team-text-container h1 {
   color: white;
   font-size: 40px;
+  margin-bottom: 2.5%;
 }
 
 .team-text-title {
@@ -21,12 +45,6 @@
 
 .team-text-title b {
   color: #1541d1;
-}
-
-.team-text-under {
-  width: 100%;
-  display: flex;
-  justify-content: center;
 }
 
 .team-text-under p {

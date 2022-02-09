@@ -32,8 +32,8 @@ a {
 
 .default-section {
   min-height: 100vh;
-  padding-top: 2.5%;
-  padding-bottom: 2.5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   display: flex;
   justify-content: center;
   align-items: center;

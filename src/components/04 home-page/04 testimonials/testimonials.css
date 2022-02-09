@@ -10,6 +10,8 @@
 
 .tm-text-container h1 {
   font-size: 40px;
+  text-align: center;
+  padding-bottom: 100px;
 }
 
 .tm-text-container h1 b {
@@ -29,7 +31,19 @@
   display: flex;
   border-radius: 13px;
   padding: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  transition: all 0.8s;
+  border: solid 2px #1541d100;
+}
+
+.select-opt:hover {
+  background-color: #0b1b39;
+  border: solid 2px #1541d1;
+}
+
+.active-opt {
+  background-color: #0e244d;
+  border: solid 2px #1541d1;
 }
 
 .select-avatar {
@@ -40,8 +54,8 @@
 }
 
 .sa-img {
-  width: 75px;
-  height: 75px;
+  width: 65px;
+  height: 65px;
 
   background-image: url(./../../../images/emil-lundvall.jpg);
   background-position: center;
@@ -68,5 +82,64 @@
   letter-spacing: 0.5px;
 }
 
+.tm-divider-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.tm-divider {
+  height: 1px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
 .tm-selected {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75%;
+}
+
+.tm-selected-item {
+}
+
+.tm-selected-inner-item h1 {
+  font-size: 22px;
+  color: white;
+  font-weight: 600;
+}
+
+.tm-selected-inner-item p {
+  font-size: 16px;
+  font-style: italic;
+  color: #d8d8d8;
+
+  width: 600px;
+}
+
+.company-container {
+}
+
+.company-inner-container {
+}
+
+.company-info {
+  display: flex;
+  align-items: center;
+}
+
+.company-info img {
+  width: 80px;
+  height: auto;
+}
+
+.company-info h1 {
+  font-size: 22px;
+  font-weight: 500;
+  color: #d8d8d8;
+  margin-left: 20px;
 }
