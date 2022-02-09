@@ -33,7 +33,7 @@ const testimonials = [
         },
         desc: {
             title: "It was a great experience!",
-            text: "Fast, flexible and solution-oriented. We are super satisfied with our collaboration and are happy to work together in the future!"
+            text: "The collaboration with ETA has given us at Nick&#39;s the opportunity to explore Twitch as a channel to reach a new target group for the brand. The team has shown great commitment to the project and communication and project management has been perceived as safe and smooth."
         }
     },
     {
