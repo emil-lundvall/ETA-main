@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import Zoom from "react-reveal/Zoom";
+import Fade from "react-reveal/Fade";
 import './../../../App.css';
 import '../../../scroll-it/scrollIt.js';
 import './testimonials.css';
@@ -76,51 +78,56 @@ function Testimonials() {
         <div className="default-section review" data-scroll-index="3">
             <div className="default-inner-section">
                 <div className="tm-text-container">
-                    <h1>This is what some other brands says<b>.</b></h1>
+                    <Zoom>
+                        <h1>This is what some other brands says<b>.</b></h1>
+                    </Zoom>
                 </div>
 
                 <div className="tm-lower-container">
                     <div className="tm-select">
-                        {testimonials.map((testimonial, index) => (
-                            // active-opt
-                            <a className={`select-opt ${index === selected ? "active-opt" : ""}`} onClick={() => handleSelection(index)} key={index}>
-                                <div className="select-avatar">
-                                    <img className="sa-img" src={testimonial.img} alt={testimonial.name} />
-                                </div>
-                                <div className="select-text">
-                                    <div className="select-text-inner">
-                                        <h1>{testimonial.name}</h1>
-                                        <p>{testimonial.brand.name}</p>
+                        <Fade left>
+                            {testimonials.map((testimonial, index) => (
+                                <a className={`select-opt ${index === selected ? "active-opt" : ""}`} onClick={() => handleSelection(index)} key={index}>
+                                    <div className="select-avatar">
+                                        <img className="sa-img" src={testimonial.img} alt={testimonial.name} />
                                     </div>
-                                </div>
-                            </a>
-                        ))}
+                                    <div className="select-text">
+                                        <div className="select-text-inner">
+                                            <h1>{testimonial.name}</h1>
+                                            <p>{testimonial.brand.name}</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            ))}
+                        </Fade>
                     </div>
 
-                    <div className="tm-selected-wrapper">
-                        {testimonials.map((testimonial, index) => (
-                            <div className={`tm-selected ${index === selected ? "tm-selected-active" : ""}`} key={index}>
-                                <div className="tm-selected-item tm-item-one">
-                                    <div className="tm-selected-inner-item">
-                                        <h1>{testimonial.desc.title}</h1>
-                                        <p>”{testimonial.desc.text}”</p>
-                                    </div>
+                    <Fade right delay={250}>
+                        <div className="tm-selected-wrapper">
+                            {testimonials.map((testimonial, index) => (
+                                <div className={`tm-selected ${index === selected ? "tm-selected-active" : ""}`} key={index}>
+                                    <div className="tm-selected-item tm-item-one">
+                                        <div className="tm-selected-inner-item">
+                                            <h1>{testimonial.desc.title}</h1>
+                                            <p>”{testimonial.desc.text}”</p>
+                                        </div>
 
-                                    <div className="tm-divider-container">
-                                        <div className="tm-divider"></div>
-                                    </div>
+                                        <div className="tm-divider-container">
+                                            <div className="tm-divider"></div>
+                                        </div>
 
-                                    <div className="company-container">
-                                        <div className="company-inner-container">
-                                            <a className="company-info" href={testimonial.brand.website} target="_blank">
-                                                <img src={testimonial.brand.logo} alt={`${testimonial.brand.name} Logotype`} />
-                                            </a>
+                                        <div className="company-container">
+                                            <div className="company-inner-container">
+                                                <a className="company-info" href={testimonial.brand.website} target="_blank">
+                                                    <img src={testimonial.brand.logo} alt={`${testimonial.brand.name} Logotype`} />
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        ))}
-                    </div>
+                            ))}
+                        </div>
+                    </Fade>
                 </div>
             </div>
         </div>

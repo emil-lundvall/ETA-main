@@ -5,6 +5,8 @@ import './footer.css';
 import ContactUs from './ContactUs.jsx';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import Popup from './Popup';
+import Fade from "react-reveal/Fade";
+import Zoom from "react-reveal/Zoom";
 
 function Footer() {
     const [showPopup, setShowPopup] = useState(false);
@@ -16,44 +18,54 @@ function Footer() {
                     <div className="contact-left">
                         <div className="cl-contact-container">
                             <div className="cl-text-container">
-                                <h1>Get in touch with us<b>.</b></h1>
-                                <p>Fill upp the form and our Team will get back to you within 24 hours.</p>
+                                <Fade left>
+                                    <h1>Get in touch with us<b>.</b></h1>
+                                </Fade>
+                                <Zoom delay={250}>
+                                    <p>Fill upp the form and our Team will get back to you within 24 hours.</p>
+                                </Zoom>
                             </div>
 
                             <div className="cl-contact-info-container">
                                 <div className="cl-contact-info-inner-container">
-                                    <a className="cl-contact-item">
-                                        <i className="bi bi-telephone-fill"></i>
-                                        <p>+46 76-127 01 02</p>
-                                    </a>
+                                    <Fade left delay={500} cascade>
+                                        <a className="cl-contact-item">
+                                            <i className="bi bi-telephone-fill"></i>
+                                            <p>+46 76-127 01 02</p>
+                                        </a>
 
-                                    <a className="cl-contact-item">
-                                        <i className="bi bi-envelope-fill"></i>
-                                        <p>info@e-sportagency.com</p>
-                                    </a>
+                                        <a className="cl-contact-item">
+                                            <i className="bi bi-envelope-fill"></i>
+                                            <p>info@e-sportagency.com</p>
+                                        </a>
 
-                                    <a className="cl-contact-item">
-                                        <i className="bi bi-geo-alt-fill"></i>
-                                        <p>Uddvägen 28A, Lidingö</p>
-                                    </a>
+                                        <a className="cl-contact-item">
+                                            <i className="bi bi-geo-alt-fill"></i>
+                                            <p>Uddvägen 28A, Lidingö</p>
+                                        </a>
+                                    </Fade>
                                 </div>
                             </div>
                             <div className="cl-social-media-container">
-                                <a className="social-item" href="https://www.instagram.com/esportstalentagency/" target="_blank"><i className="bi bi-instagram"></i></a>
-                                <a className="social-item" href="https://www.facebook.com/esportstalentagencyab" target="_blank"><i className="bi bi-facebook"></i></a>
-                                <a className="social-item" href="https://www.linkedin.com/company/esports-talent-agency-ab" target="_blank"><i className="bi bi-linkedin"></i></a>
+                                <Fade top delay={750} cascade>
+                                    <a className="social-item" href="https://www.instagram.com/esportstalentagency/" target="_blank"><i className="bi bi-instagram"></i></a>
+                                    <a className="social-item" href="https://www.facebook.com/esportstalentagencyab" target="_blank"><i className="bi bi-facebook"></i></a>
+                                    <a className="social-item" href="https://www.linkedin.com/company/esports-talent-agency-ab" target="_blank"><i className="bi bi-linkedin"></i></a>
+                                </Fade>
                             </div>
                         </div>
                     </div>
 
                     <div className="contact-right">
-                        <div className="cr-form-wrapper">
-                            <Popup showPopup={showPopup} setShowPopup={setShowPopup} />
+                        <Fade right delay={500}>
+                            <div className="cr-form-wrapper">
+                                <Popup showPopup={showPopup} setShowPopup={setShowPopup} />
 
-                            <div className="cr-form-container">
-                                <ContactUs setShowPopup={setShowPopup} />
+                                <div className="cr-form-container">
+                                    <ContactUs setShowPopup={setShowPopup} />
+                                </div>
                             </div>
-                        </div>
+                        </Fade>
                     </div>
                 </div>
             </div>

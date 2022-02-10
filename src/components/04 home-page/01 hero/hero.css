@@ -37,11 +37,21 @@
   margin-bottom: 2.5rem;
 }
 
-.home-text-container h1 {
+.home-text-title {
+  display: flex;
+  gap: 0.05em;
+}
+
+.home-text-title h1,
+.home-text-title b {
   font-size: 60px;
   font-weight: 700;
   color: white;
   margin-bottom: 1rem;
+}
+
+.home-text-title b {
+  color: #1541d1;
 }
 
 .home-text-container p {
@@ -49,10 +59,6 @@
   font-weight: 500;
   color: #d8d8d8;
   width: 85%;
-}
-
-.home-text-container > h1 > b {
-  color: #1541d1;
 }
 
 .home-buttons-container {
