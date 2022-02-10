@@ -28,17 +28,21 @@ function Footer() {
 
                             <div className="cl-contact-info-container">
                                 <div className="cl-contact-info-inner-container">
-                                    <Fade left delay={500} cascade>
+                                    <Fade left delay={500}>
                                         <a className="cl-contact-item">
                                             <i className="bi bi-telephone-fill"></i>
                                             <p>+46 76-127 01 02</p>
                                         </a>
+                                    </Fade>
 
+                                    <Fade left delay={500}>
                                         <a className="cl-contact-item">
                                             <i className="bi bi-envelope-fill"></i>
                                             <p>info@e-sportagency.com</p>
                                         </a>
+                                    </Fade>
 
+                                    <Fade left delay={500}>
                                         <a className="cl-contact-item">
                                             <i className="bi bi-geo-alt-fill"></i>
                                             <p>Uddvägen 28A, Lidingö</p>
