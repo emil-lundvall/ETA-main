@@ -6,17 +6,17 @@ import '../../../scroll-it/scrollIt.js';
 import './testimonials.css';
 import Naia from './../../../images/naia-logo.png';
 import Foodora from './../../../images/foodora-logo.png';
-import EscoWeb from './../../../images/escoweb-logo.png';
-import EmilLundvall from "../../../images/emil-lundvall.jpg";
-import MartinLundvall from "../../../images/martin-lundvall.jpg";
-import NoahKarlberg from "../../../images/noah-karlberg.jpg";
+import Sebrin from './../../../images/sebrin-poli.jpg';
+import Frida from './../../../images/frida-jonsson.jpg';
+import Tekla from './../../../images/tekla-wannberg.jpg';
+
 
 const testimonials = [
     {
         name: "Sebrin Poli",
-        img: EmilLundvall,
+        img: Sebrin,
         brand: {
-            name: "The Naia Initiative",
+            name: "The Naia Initiative - Senior Brand Manager",
             logo: Naia,
             website: "https://thenaiainitiative.se/"
         },
@@ -27,28 +27,28 @@ const testimonials = [
     },
     {
         name: "Frida Jonsson",
-        img: MartinLundvall,
+        img: Frida,
         brand: {
-            name: "Nick's",
-            logo: Foodora,
+            name: "Nick's - Brand Manager",
+            logo: Naia,
             website: "https://nicks.se/"
         },
         desc: {
-            title: "It was a great experience!",
+            title: "Perfect work from ETA!",
             text: "The collaboration with ETA has given us at Nick's the opportunity to explore Twitch as a channel to reach a new target group for the brand. The team has shown great commitment to the project and communication and project management has been perceived as safe and smooth."
         }
     },
     {
-        name: "Anton Persson",
-        img: NoahKarlberg,
+        name: "Tekla Wannberg",
+        img: Tekla,
         brand: {
-            name: "Esco Web",
-            logo: EscoWeb,
+            name: "Foodora - Marketing Campaign Manager",
+            logo: Foodora,
             website: "https://escoweb.se/"
         },
         desc: {
-            title: "Jag heter Anton!",
-            text: "lol"
+            title: "Very satisfied!",
+            text: "ETA have with their expertise helped us market ourselves through various activations on the relevant gaming platforms. We have together set up clear measurable KPIs that are also fulfilled. Very satisfied with our collaboration."
         }
     },
 ]

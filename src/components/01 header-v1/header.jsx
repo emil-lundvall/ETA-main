@@ -9,7 +9,7 @@ function HeaderV1() {
       <div className="header-inner-container">
         <div className="header-logo">
           <img src={LogoIcon}></img>
-          <h1>E-SPORT AGENCY</h1>
+          <h1>ESPORTS TALENT AGENCY</h1>
         </div>
         <div className="header-nav-bar">
           <ul>

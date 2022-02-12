@@ -31,7 +31,7 @@ function Footer() {
                                     <Fade left delay={500}>
                                         <a className="cl-contact-item">
                                             <i className="bi bi-telephone-fill"></i>
-                                            <p>+46 76-127 01 02</p>
+                                            <p>+46 73 508 33 63</p>
                                         </a>
                                     </Fade>
 
@@ -45,7 +45,7 @@ function Footer() {
                                     <Fade left delay={500}>
                                         <a className="cl-contact-item">
                                             <i className="bi bi-geo-alt-fill"></i>
-                                            <p>Uddvägen 28A, Lidingö</p>
+                                            <p>Östermalmsgatan 87 C<br></br> 114 59 Stockholm</p>
                                         </a>
                                     </Fade>
                                 </div>
@@ -76,7 +76,7 @@ function Footer() {
             <div className="footer-container">
                 <div className="footer-upper-container">
                     <div className="footer-upper-inner-container">
-                        <i>"Quote here"</i>
+                        <i>"Get in the game!"</i>
                     </div>
                 </div>
                 <div className="copyright-footer">
