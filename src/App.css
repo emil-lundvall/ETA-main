@@ -9,6 +9,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+body {
+  min-width: 767px;
+}
+
 /* Hide scrollbar for Chrome, Safari and Opera */
 body::-webkit-scrollbar {
   display: none;
@@ -22,6 +26,10 @@ body {
 
 a {
   cursor: pointer;
+}
+
+b {
+  font-weight: 700;
 }
 
 .website-container {

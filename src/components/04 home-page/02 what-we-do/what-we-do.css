@@ -34,6 +34,7 @@
 
 .upper-right-container {
   width: 675px;
+  min-width: 400px;
 }
 
 .upper-left-container {
@@ -50,13 +51,14 @@
 
 .uc-title-container h1 b {
   color: #1541d1;
+  font-size: 40px;
 }
 
 .uc-text-container p {
   font-size: 22px;
   font-weight: 500;
   color: #d8d8d8;
-  width: 650px;
+  width: 90%;
 }
 
 .uc-btn-container {
@@ -93,7 +95,7 @@
   font-size: 22px;
   font-weight: 500;
   color: #d8d8d8;
-  width: 650px;
+  width: 90%;
 }
 
 .first-li {
@@ -102,7 +104,6 @@
 
 .lower-container {
   width: 100%;
-  min-width: 767px;
   display: flex;
   justify-content: center;
   margin-top: 5rem;
@@ -168,4 +169,7 @@
   color: #d8d8d8;
   padding-left: 5%;
   padding-right: 5%;
+}
+
+@media only screen and (max-width: 810px) {
 }

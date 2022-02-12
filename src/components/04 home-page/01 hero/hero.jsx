@@ -14,10 +14,7 @@ function home() {
                     <div className="home-text-container">
                         <div className="home-text-title">
                             <Fade bottom cascade>
-                                <h1>Get in the game</h1>
-                            </Fade>
-                            <Fade left delay={1000}>
-                                <b>!</b>
+                                <h1>Get in the game<b>!</b></h1>
                             </Fade>
                         </div>
                         <Fade left delay={250}>
@@ -30,9 +27,6 @@ function home() {
                             <a className="contact-btn">Talents</a>
                         </Fade>
                     </div>
-                </div>
-                <div className="home-right-container">
-
                 </div>
             </div>
             <div className="home-background"></div>

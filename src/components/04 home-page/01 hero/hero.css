@@ -21,7 +21,7 @@
 
 .home-video {
   z-index: -3;
-  width: 100vw;
+  width: 100%;
   position: absolute;
 }
 
@@ -107,3 +107,15 @@
   color: #fff;
 }
 */
+
+@media only screen and (max-width: 1150px) {
+  .home-left-container {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .home-left-container {
+    width: 100%;
+  }
+}
