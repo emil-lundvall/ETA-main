@@ -171,5 +171,33 @@
   padding-right: 5%;
 }
 
-@media only screen and (max-width: 810px) {
+@media only screen and (max-width: 900px) {
+  .upper-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .uc-title-container h1 {
+    font-size: 35px;
+  }
+
+  .uc-title-container h1 b {
+    font-size: 35px;
+  }
+
+  .uc-text-container p {
+    font-size: 18px;
+  }
+
+  .mc-title-container h1 {
+    font-size: 35px;
+  }
+
+  .mc-title-container h1 b {
+    font-size: 35px;
+  }
+
+  .mc-text-container p {
+    font-size: 18px;
+  }
 }
