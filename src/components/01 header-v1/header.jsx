@@ -1,6 +1,6 @@
 import React from 'react';
-import { Links } from 'react-router-dom';
 import './sticky-header.css';
+import MenuIcon from './../../icons/lordicon/menu-icon.gif'
 import LogoIcon from './../../images/LOGO-C1.png'
 
 function HeaderV1() {
@@ -21,6 +21,9 @@ function HeaderV1() {
             <li><a data-scroll-nav="5" href="#">Team</a></li>
             <li><a data-scroll-nav="6" href="#">Try us</a></li>
           </ul>
+        </div>
+        <div className="header-mobile-nav-bar">
+          <a><i class="bi bi-list"></i></a>
         </div>
       </div>
     </div>
