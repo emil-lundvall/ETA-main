@@ -80,7 +80,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className="copyright-footer">
-                    <p>© 2022 ESPORT AGENCY AB. ALL RIGHTS RESERVED.</p>
+                    <p>© 2022 ESPORTS TALENTS AGENCY GROUP AB. ALL RIGHTS RESERVED.</p>
                 </div>
             </div>
         </div>

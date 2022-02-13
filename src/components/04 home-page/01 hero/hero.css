@@ -12,7 +12,7 @@
     rgb(21, 50, 146) 100%
   );
   z-index: -2;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   min-height: 1080px;
   position: absolute;
@@ -21,7 +21,6 @@
 
 .home-video {
   z-index: -3;
-  width: 100%;
   position: absolute;
 }
 

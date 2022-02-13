@@ -46,3 +46,10 @@
   border: solid white 1px;
   transform: scale(2.5);
 }
+
+@media only screen and (max-width: 850px) {
+  .point-container {
+    display: none;
+    visibility: hidden;
+  }
+}
