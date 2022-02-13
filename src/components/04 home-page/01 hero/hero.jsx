@@ -13,7 +13,7 @@ function home() {
                 <div className="home-left-container">
                     <div className="home-text-container">
                         <div className="home-text-title">
-                            <Fade bottom cascade>
+                            <Fade bottom>
                                 <h1>Get in the game<b>!</b></h1>
                             </Fade>
                         </div>

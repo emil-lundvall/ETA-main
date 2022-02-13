@@ -44,7 +44,7 @@ const testimonials = [
         brand: {
             name: "Foodora",
             logo: Foodora,
-            website: "https://escoweb.se/"
+            website: "https://foodora.se/"
         },
         desc: {
             title: "Very satisfied!",
