@@ -149,7 +149,6 @@
   font-weight: 600;
 }
 
-
 .tm-selected-inner-item p {
   font-size: 16px;
   font-style: italic;
@@ -178,4 +177,23 @@
   font-weight: 500;
   color: #d8d8d8;
   margin-left: 20px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .tm-select {
+    width: 40%;
+    min-width: 300px;
+  }
+
+  .tm-selected {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .tm-selected-inner-item p {
+    font-size: 16px;
+    font-style: italic;
+    color: #d8d8d8;
+    width: 100%;
+  }
 }

@@ -16,7 +16,7 @@ const testimonials = [
         name: "Sebrin Poli",
         img: Sebrin,
         brand: {
-            name: "The Naia Initiative - Senior Brand Manager",
+            name: "The Naia Initiative",
             logo: Naia,
             website: "https://thenaiainitiative.se/"
         },
@@ -29,7 +29,7 @@ const testimonials = [
         name: "Frida Jonsson",
         img: Frida,
         brand: {
-            name: "Nick's - Brand Manager",
+            name: "Nick's",
             logo: Naia,
             website: "https://nicks.se/"
         },
@@ -42,7 +42,7 @@ const testimonials = [
         name: "Tekla Wannberg",
         img: Tekla,
         brand: {
-            name: "Foodora - Marketing Campaign Manager",
+            name: "Foodora",
             logo: Foodora,
             website: "https://escoweb.se/"
         },
