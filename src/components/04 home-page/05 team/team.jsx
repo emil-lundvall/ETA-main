@@ -34,7 +34,7 @@ function team() {
                     <div className="team-staff-container">
                         <div className="team-staff-inner-container">
                             <Fade left delay={250}>
-                                <div className="team-staff-item">
+                                <div className="team-staff-item tsi-left">
                                     <div className="staff-row-one">
                                         <div className="staff-img" id="staff-one"></div>
                                     </div>
@@ -72,7 +72,7 @@ function team() {
                             </Fade>
 
                             <Fade right delay={350}>
-                                <div className="team-staff-item">
+                                <div className="team-staff-item tsi-right">
                                     <div className='staff-row-one'>
                                         <div className="staff-img" id="staff-three"></div>
                                     </div>
