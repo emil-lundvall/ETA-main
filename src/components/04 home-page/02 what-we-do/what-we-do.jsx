@@ -56,8 +56,7 @@ function whatWeDo() {
                                 influence and presence on any network; including gaming focused platforms such
                                 as Instagram , Twitter, Youtube, TikTok and Twitch.
                                 We develop strategies and create concepts and activities to boost your brand’s
-                                visibility and presence in order to;<br></br>
-                                Get more people to know your brand, like your brand and try or buy your brand.</p>
+                                visibility and presence in order to; Get more people to know your brand, like your brand and try or buy your brand.</p>
                         </div>
                     </div>
                 </Fade>

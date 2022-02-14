@@ -201,3 +201,13 @@
     font-size: 18px;
   }
 }
+
+@media only screen and (max-width: 850px) {
+  .upper-container {
+    flex-direction: column;
+  }
+
+  .mc-text-container {
+    padding-top: 5%;
+  }
+}
