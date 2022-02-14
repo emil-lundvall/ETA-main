@@ -1,12 +1,10 @@
 .default-section-contact {
-  height: 100vh;
   min-height: 800px;
   background-color: #050e1e;
 }
 
 .contact-container {
-  height: 90vh;
-  min-height: 796px;
+  padding: 64px 0;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -21,11 +19,12 @@
 
 .contact-left {
   width: 40%;
-  height: 60vh;
 }
 
 .cl-contact-container {
-  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .cl-text-container h1 {
@@ -40,7 +39,12 @@
 .cl-text-container p {
   color: #d8d8d8;
   font-size: 20px;
-  width: 450px;
+}
+
+.cl-contact-info-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .cl-contact-info-container {
@@ -77,8 +81,7 @@
 
 .cl-social-media-container {
   display: flex;
-  width: 200px;
-  justify-content: space-between;
+  gap: 24px;
   bottom: 1;
 }
 
@@ -299,4 +302,41 @@ form button {
   font-size: 10px;
   color: white;
   opacity: 0.2;
+}
+
+@media only screen and (max-width: 1280px) {
+  .contact-inner-container {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .contact-inner-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    text-align: center;
+  }
+
+  .cl-contact-info-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cl-contact-item {
+    width: auto;
+    text-align: center;
+  }
+
+  .contact-left,
+  .contact-right {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 666px) {
+  .contact-left,
+  .contact-right {
+    width: 90%;
+  }
 }
