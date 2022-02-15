@@ -1,0 +1,62 @@
+.default-section-test {
+  background-color: #061752;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.default-inner-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-title {
+  display: flex;
+  justify-content: center;
+}
+
+.section-title h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.testimonial-container {
+  display: flex;
+  align-items: center;
+  width: 60%;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.avatar {
+  width: 140px;
+  height: 140px;
+  border: solid 2px white;
+  border-radius: 100%;
+
+  background-image: url("./../../../../images/tekla-wannberg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.info {
+  width: 80%;
+}
+
+.info i {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.info b > a {
+  font-weight: 400;
+}

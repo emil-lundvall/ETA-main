@@ -11,14 +11,16 @@ function introSection() {
             <div className='intro-row'>
               <p>EVENT</p> {/* Case type example: event, sponsor, influencer and so on */}
             </div>
-            <div className='intro-row'>
+            <div className='intro-row mid'>
               <h1>Present the challenge – CASE 1</h1> {/* Title of the case */}
+              <h2>Foodora</h2>
             </div>
             <div className='intro-row'>
               <p>2022-02-14</p> {/* Date when case was created */}
             </div>
           </div>
           <div className="background-img-container">
+            <div className="background-img-layer"></div>
             <div className="background-img"></div>
           </div>
         </div>

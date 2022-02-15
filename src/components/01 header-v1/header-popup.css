@@ -28,7 +28,9 @@
 .container {
   width: 275px;
   padding: 32px;
-  background-color: #050e1e;
+  background-color: #050e1ec9;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   transition: transform 0.25s;
   transform: translateX(100%);
   z-index: 100;
