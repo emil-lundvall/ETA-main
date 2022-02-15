@@ -20,6 +20,7 @@
 
 .tm-lower-container {
   display: flex;
+  gap: 128px;
 }
 
 .tm-select {

@@ -7,13 +7,13 @@
   display: flex;
   z-index: -1;
   opacity: 0;
-  transition: z-index 0.25s;
+  transition: all 0.25s;
 }
 
 .popup-header.active {
   z-index: 99;
   opacity: 1;
-  transition: z-index 0s;
+  transition: all 0s;
 }
 
 .popup-header .backdrop {
