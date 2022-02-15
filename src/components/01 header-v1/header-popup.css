@@ -1,39 +1,67 @@
 .popup-header {
-  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
   height: 100vh;
-  z-index: 99;
+  width: 100vw;
   display: flex;
-  justify-content: center;
+  z-index: -1;
+  opacity: 0;
+  transition: z-index 0.25s;
+}
 
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  background-color: rgba(0, 0, 0, 0.35);
+.popup-header.active {
+  z-index: 99;
+  opacity: 1;
+  transition: z-index 0s;
+}
+
+.popup-header .backdrop {
+  height: 100%;
+  flex: 1;
+}
+
+.popup-header.active .container {
+  transform: translateX(0);
 }
 
 .container {
-  width: 60%;
-  min-width: 500px;
+  width: 275px;
+  padding: 32px;
+  background-color: #050e1e;
+  transition: transform 0.25s;
+  transform: translateX(100%);
+  z-index: 100;
 }
 
 .container ul {
-  text-align: center;
+  text-align: end;
+}
+
+.container ul li {
+  margin-bottom: 8px;
 }
 
 .container ul li a {
-  color: white;
+  color: rgb(255 255 255 / 0.6);
   text-decoration: none;
-  font-size: 20px;
+  font-size: 28px;
   font-weight: 500;
-  opacity: 60%;
-  transition: 0.8s;
+  transition: 0.4s;
+  border-bottom: solid 2px rgba(0, 0, 0, 0%);
 }
 
-.container ul li .active {
+.container ul li a:hover {
+  color: white;
+}
+
+.container ul li a.active {
   background-color: transparent !important;
   border: none;
 }
 
-.container ul li .active2 {
+.container ul li a.active2 {
   background-color: transparent !important;
-  opacity: 1 !important;
+  color: white;
+  border-bottom: solid 2px #1541d1 !important;
 }
