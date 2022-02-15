@@ -58,6 +58,10 @@ b {
   z-index: -1;
 }
 
+.case {
+  z-index: 2;
+}
+
 .review {
   z-index: 1;
 }
