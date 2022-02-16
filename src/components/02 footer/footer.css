@@ -24,7 +24,8 @@
 .cl-contact-container {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  height: 100%;
+  justify-content: space-between;
 }
 
 .cl-text-container h1 {
@@ -41,16 +42,9 @@
   font-size: 20px;
 }
 
-.cl-contact-info-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
 .cl-contact-info-container {
   display: flex;
   align-items: center;
-  height: 65%;
 }
 
 .cl-contact-item {
@@ -311,16 +305,16 @@ form button {
 }
 
 @media only screen and (max-width: 1024px) {
+  .cl-contact-container {
+    gap: 32px;
+    align-items: center;
+  }
+
   .contact-inner-container {
     flex-direction: column;
     align-items: center;
     gap: 32px;
     text-align: center;
-  }
-
-  .cl-contact-info-wrapper {
-    flex-direction: column;
-    align-items: center;
   }
 
   .cl-contact-item {
@@ -331,6 +325,10 @@ form button {
   .contact-left,
   .contact-right {
     width: 60%;
+  }
+
+  .cr-form-container {
+    text-align: start;
   }
 }
 
