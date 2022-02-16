@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './../../../App.css';
 import '../../../scroll-it/scrollIt.js';
 import './hero.css';
-import './../../../particle-effect-globe/effect.scss'
 import backgroundVideo from './../../../videos/background.mp4'
 import Fade from "react-reveal/Fade";
 
