@@ -13,13 +13,11 @@ function HeaderV2() {
           </div>
           <div className="header-nav-bar">
             <ul>
-              <li><a data-scroll-nav="0" href="#" className="active2">Home</a></li>
-              <li><a data-scroll-nav="1" href="#">What we do</a></li>
-              <li><a data-scroll-nav="2" href="#">Cases</a></li>
-              <li><a data-scroll-nav="3" href="#">Testimonials</a></li>
-              <li><a data-scroll-nav="4" href="#">Our Story</a></li>
-              <li><a data-scroll-nav="5" href="#">Team</a></li>
-              <li><a data-scroll-nav="6" href="#">Try us</a></li>
+              <li><a href="#" className="active2">Home</a></li>
+              <li><a data-scroll-nav="7" href="#">What we do</a></li>
+              <li><a data-scroll-nav="8" href="#">Cases</a></li>
+              <li><a data-scroll-nav="9" href="#">Testimonials</a></li>
+              <li><a data-scroll-nav="10" href="#">Our Story</a></li>
             </ul>
           </div>
         </div>
