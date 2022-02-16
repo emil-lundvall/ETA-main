@@ -14,7 +14,7 @@ function home() {
                     <div className="home-text-container">
                         <div className="home-text-title">
                             <Fade bottom>
-                                <h1>Get in the game<b>!</b></h1>
+                                <h1>GET IN THE GAME<b>!</b></h1>
                             </Fade>
                         </div>
                         <Fade left delay={250}>
