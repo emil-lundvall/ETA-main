@@ -4,7 +4,7 @@ import './../../../../App.css';
 
 function introSection() {
     return (
-      <div className="default-section intro">
+      <div className="default-section intro" data-scroll-index="7">
 
         <div className="intro-container">
           <div className="row-container">

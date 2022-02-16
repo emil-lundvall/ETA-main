@@ -1,5 +1,5 @@
 .default-section-test {
-  background-color: #061752;
+  background-color: #050e1e;
   padding-top: 2.5%;
   padding-bottom: 2.5%;
   display: flex;
@@ -7,11 +7,13 @@
   align-items: center;
 }
 
-.default-inner-section {
+.inner-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 80%;
+  max-width: 1600px;
 }
 
 .section-title {
@@ -27,10 +29,10 @@
 .testimonial-container {
   display: flex;
   align-items: center;
-  width: 60%;
+  width: 70%;
 }
 
-.about {
+.about-test {
   display: flex;
   align-items: center;
   padding-right: 20px;
@@ -48,11 +50,11 @@
   background-position: center;
 }
 
-.info {
+.info-test {
   width: 80%;
 }
 
-.info i {
+.info-test i {
   font-weight: 300;
   font-size: 15px;
 }

@@ -19,7 +19,7 @@ function cases() {
                 <div className="project-grid-section">
                     <div className="project-grid-container">
                         <Fade cascade delay={250}>
-                            <div className="project-grid-item">
+                            <a className="project-grid-item" href="https://e-sportagency.com/projects/case-one/">
                                 <div className="prjct-inner-container">
                                     <div className="event-type">
                                         <p>E-SPORT</p>
@@ -33,7 +33,7 @@ function cases() {
                                 <div className="button-view-more">
                                     <a>View case details<li></li></a>
                                 </div>
-                            </div>
+                            </a>
                             <div className="project-grid-item prjct-two">
                                 <div className="prjct-inner-container">
                                     <div className="event-type">

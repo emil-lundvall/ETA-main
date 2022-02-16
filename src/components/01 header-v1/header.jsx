@@ -33,10 +33,10 @@ function HeaderV1() {
     <>
       <div className="header">
         <div className="header-inner-container">
-          <div className="header-logo">
+          <a className="header-logo" href="https://e-sportagency.com">
             <img src={LogoIcon} />
             <h1>ESPORTS TALENT AGENCY</h1>
-          </div>
+          </a>
           <div className="header-nav-bar">
             <ul>
               <li><a data-scroll-nav="0" href="#" className="active2">Home</a></li>

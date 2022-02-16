@@ -4,8 +4,8 @@ import './../../../../App.css'
 
 function aboutSection() {
     return (
-      <div className="default-section case">
-        <div className="default-inner-section about">
+      <div className="default-section case" data-scroll-index="8">
+        <div className="about">
           <div className="about-container">
 
             <div className="about-row">

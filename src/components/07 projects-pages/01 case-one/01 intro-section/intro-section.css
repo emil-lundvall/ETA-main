@@ -23,8 +23,8 @@
 }
 
 .mid {
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 15%;
+  padding-bottom: 15%;
 }
 
 .intro-row h1 {
@@ -60,7 +60,7 @@
 }
 
 .background-img-layer {
-  background-color: rgba(0, 0, 0, 0.35);
+  background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
   z-index: -1;
   width: 80%;
@@ -86,4 +86,35 @@
   width: 30%;
   background-color: #0a1831;
   z-index: -2;
+}
+
+@media only screen and (max-width: 900px) {
+  .background-img {
+    width: 100%;
+  }
+
+  .background-img-layer {
+    width: 100%;
+  }
+
+  .background-img-container {
+    width: 90%;
+  }
+
+  .row-container {
+    padding: 2.5%;
+  }
+
+  .intro-container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .bg-one {
+    width: 100%;
+  }
+
+  .bg-two {
+    width: 0%;
+  }
 }

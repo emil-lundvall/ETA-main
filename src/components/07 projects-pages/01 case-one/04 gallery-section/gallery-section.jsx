@@ -4,7 +4,7 @@ import './../../../../App.css'
 
 function gallerySection() {
     return (
-      <div className="default-section case">
+      <div className="default-section gallery" data-scroll-index="10">
 
       </div>
     );
