@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './../../../App.css';
 import '../../../scroll-it/scrollIt.js';
 import './hero.css';
-import backgroundVideo from './../../../videos/background.mp4'
+import backgroundVideo from './../../../videos/ETA website video 1440p.mov';
 import Fade from "react-reveal/Fade";
 
 function home() {
