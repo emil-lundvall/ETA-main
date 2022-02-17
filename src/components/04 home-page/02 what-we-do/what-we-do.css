@@ -70,12 +70,6 @@
   cursor: pointer;
 }
 
-.read-more-btn a:active {
-  color: white;
-  background-color: unset;
-  text-decoration: none;
-}
-
 .mc-title-container h1 {
   color: white;
   font-size: 40px;
