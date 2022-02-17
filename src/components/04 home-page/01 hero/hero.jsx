@@ -2,7 +2,7 @@ import React from 'react';
 import './../../../App.css';
 import '../../../scroll-it/scrollIt.js';
 import './hero.css';
-import backgroundVideo from './../../../videos/ETA website video 1440p.mov';
+import backgroundVideo from './../../../videos/ETA website video 1440p.a34d2e7acd5386f2c63f.mov';
 import Fade from "react-reveal/Fade";
 
 function home() {
