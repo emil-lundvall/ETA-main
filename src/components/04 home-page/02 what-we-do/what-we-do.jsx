@@ -31,7 +31,7 @@ function whatWeDo() {
                             </div>
                             <p>With continuosly growing audiences and engaged fans esports follows the path of other growing global sports through history – and has already reached a higher level of commercialization.</p>
                             <div className="uc-btn-container">
-                                <a className="read-more-btn">Learn more</a>
+                                <a className="read-more-btn" href="https://e-sportagency.com/esports">Learn more</a>
                             </div>
                         </div>
                     </Fade>

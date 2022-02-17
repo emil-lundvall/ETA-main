@@ -26,7 +26,7 @@ function App() {
         <Switch>
             <Route path="/" exact element={<Home />} />
             <Route path="/talents" element={<Talent />} />
-            <Route path="/info-esports" element={<Esport />} />
+            <Route path="/esports" element={<Esport />} />
             <Route path="/projects/case-one" element={<CaseOne />} />
         </Switch>
       </div>
