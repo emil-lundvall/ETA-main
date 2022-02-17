@@ -2,8 +2,8 @@ import React from 'react';
 import './../../../App.css';
 import '../../../scroll-it/scrollIt.js';
 import './hero.css';
-import backgroundVideo from './../../../videos/ETA website video 1440p.a34d2e7acd5386f2c63f.mov';
 import Fade from "react-reveal/Fade";
+import backgroundVideo from 'https://github.com/emil-lundvall/ETA-main/blob/3dd0bfaa86300f40e5b7c1db5acfef07bfc254c6/src/videos/ETA%20website%20video%201440p.mov';
 
 function home() {
     return (
