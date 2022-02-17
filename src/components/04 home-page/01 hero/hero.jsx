@@ -3,7 +3,7 @@ import './../../../App.css';
 import '../../../scroll-it/scrollIt.js';
 import './hero.css';
 import Fade from "react-reveal/Fade";
-import backgroundVideo from 'https://github.com/emil-lundvall/ETA-main/blob/3dd0bfaa86300f40e5b7c1db5acfef07bfc254c6/src/videos/ETA%20website%20video%201440p.mov';
+import backgroundVideo from 'https://www.dropbox.com/s/ow4mbjfmpl3sjas/E-BrokR%20website%20video%201440p.mov?dl=0';
 
 function home() {
     return (
