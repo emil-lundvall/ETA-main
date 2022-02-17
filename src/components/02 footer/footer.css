@@ -338,4 +338,8 @@ form button {
   .contact-right {
     width: 90%;
   }
+
+  .cl-text-container h1 {
+    font-size: 35px;
+  }
 }

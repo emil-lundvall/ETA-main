@@ -7,8 +7,8 @@ import Fade from "react-reveal/Fade";
 
 function team() {
     return (
-        <div className="default-section">
-            <div className="default-inner-section">
+        <div className="default-section-team">
+            <div className="default-inner-section-team">
                 <div className="story-text-container" data-scroll-index="4">
                     <div className="story-title">
                         <Zoom>

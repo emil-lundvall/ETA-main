@@ -31,16 +31,19 @@ function whatWeDo() {
                             </div>
                             <p>With continuosly growing audiences and engaged fans esports follows the path of other growing global sports through history – and has already reached a higher level of commercialization.</p>
                             <div className="uc-btn-container">
-                                <a className="read-more-btn">Read more</a>
+                                <a className="read-more-btn">Learn more</a>
                             </div>
                         </div>
                     </Fade>
                     <Fade right delay={500}>
                         <div className="mc-text-container">
                             <div className="mc-title-container">
-                                <h1>Our Sevices<b>.</b></h1>
+                                <h1>What we do<b>?</b></h1>
                             </div>
                             <p>We help and support brands by introducing and connecting them to esports and digital entertainment. Developing concepts, activities and events we create new avenues for marketing and promotion.</p>
+                            <div className="uc-btn-container">
+                                <a className="read-more-btn" data-scroll-nav="6">Try us now</a>
+                            </div>
                         </div>
                     </Fade>
 

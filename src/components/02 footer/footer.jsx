@@ -19,7 +19,7 @@ function Footer() {
                         <div className="cl-contact-container">
                             <div className="cl-text-container">
                                 <Fade left>
-                                    <h1>Get in touch with us<b>.</b></h1>
+                                    <h1>Try us - get in the game<b>!</b></h1>
                                 </Fade>
                                 <Zoom delay={250}>
                                     <p>Fill upp the form and our Team will get back to you within 24 hours.</p>
