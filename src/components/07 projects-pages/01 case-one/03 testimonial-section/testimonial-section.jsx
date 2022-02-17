@@ -8,7 +8,7 @@ function testimonialSection() {
       <div className="default-section-test" data-scroll-index="9">
         <div className="inner-section">
           <div className="section-title">
-            <h1>What did the customer think?</h1>
+            <h1>What did the customer think<b>?</b></h1>
           </div>
           <div className="testimonial-container">
             <div className="about-test">

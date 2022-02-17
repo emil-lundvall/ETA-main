@@ -22,8 +22,8 @@ function home() {
                     </div>
                     <div className="home-buttons-container">
                         <Fade bottom delay={750}>
-                            <a className="contact-btn">Brands</a>
-                            <a className="contact-btn">Talents</a>
+                            <a className="active-btn">Brands</a>
+                            <a>Talents</a>
                         </Fade>
                     </div>
                 </div>

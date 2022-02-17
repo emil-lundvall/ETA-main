@@ -1,6 +1,5 @@
 .default-section-contact {
-  min-height: 800px;
-  height: 100vh;
+  min-height: 100vh;
   background-color: #050e1e;
 }
 
@@ -10,7 +9,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 85vh;
+  min-height: 85vh;
 }
 
 .contact-inner-container {

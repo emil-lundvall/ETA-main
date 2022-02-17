@@ -1,22 +1,22 @@
-a:link {
+.project-grid-item a {
   color: white;
   background-color: unset;
   text-decoration: none;
 }
 
-a:visited {
+.project-grid-item h1 {
   color: white;
   background-color: unset;
   text-decoration: none;
 }
 
-a:hover {
+.project-grid-item p {
   color: white;
   background-color: unset;
   text-decoration: none;
 }
 
-a:active {
+.project-grid-item a:active {
   color: white;
   background-color: unset;
   text-decoration: none;

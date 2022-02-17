@@ -71,7 +71,7 @@
   gap: 24px;
 }
 
-.home-buttons-container a {
+.home-buttons-container > a {
   text-decoration: none;
   color: white;
   font-size: 17px;
@@ -87,8 +87,20 @@
 }
 
 .home-buttons-container a:hover {
+  border: 1px solid white;
   background-color: white;
   color: #000;
+}
+
+.active-btn {
+  border: 1px solid #1541d1 !important;
+  background-color: #1541d1;
+}
+
+.active-btn:hover {
+  border: 1px solid #1541d1 !important;
+  background-color: #002a613a !important;
+  color: unset !important;
 }
 
 /*

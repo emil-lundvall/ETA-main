@@ -26,6 +26,10 @@
   margin-bottom: 20px;
 }
 
+.section-title b {
+  color: #1541d1;
+}
+
 .testimonial-container {
   display: flex;
   align-items: center;

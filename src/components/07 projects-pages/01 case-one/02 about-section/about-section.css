@@ -25,6 +25,10 @@
   font-size: 20px;
 }
 
+.title b {
+  color: #1541d1;
+}
+
 .text {
   width: 85%;
   border-left: solid 1px rgba(255, 255, 255, 0.1);
