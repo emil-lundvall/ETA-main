@@ -34,7 +34,7 @@ function cases() {
                                     <a>View case details<li></li></a>
                                 </div>
                             </a>
-                            <a className="project-grid-item" href="https://e-sportagency.com/projects/case-one/">
+                            <a className="project-grid-item" href="https://e-sportagency.com/projects/case-two/">
                                 <div className="prjct-inner-container">
                                     <div className="event-type">
                                         <p>E-SPORT</p>
@@ -49,7 +49,7 @@ function cases() {
                                     <a>View case details<li></li></a>
                                 </div>
                             </a>
-                            <a className="project-grid-item" href="https://e-sportagency.com/projects/case-one/">
+                            <a className="project-grid-item" href="https://e-sportagency.com/projects/case-three/">
                                 <div className="prjct-inner-container">
                                     <div className="event-type">
                                         <p>E-SPORT</p>
@@ -64,7 +64,7 @@ function cases() {
                                     <a>View case details<li></li></a>
                                 </div>
                             </a>
-                            <a className="project-grid-item" href="https://e-sportagency.com/projects/case-one/">
+                            <a className="project-grid-item" href="https://e-sportagency.com/projects/case-four/">
                                 <div className="prjct-inner-container">
                                     <div className="event-type">
                                         <p>E-SPORT</p>
@@ -79,7 +79,7 @@ function cases() {
                                     <a>View case details<li></li></a>
                                 </div>
                             </a>
-                            <a className="project-grid-item" href="https://e-sportagency.com/projects/case-one/">
+                            <a className="project-grid-item" href="https://e-sportagency.com/projects/case-five/">
                                 <div className="prjct-inner-container">
                                     <div className="event-type">
                                         <p>E-SPORT</p>
@@ -94,7 +94,7 @@ function cases() {
                                     <a>View case details<li></li></a>
                                 </div>
                             </a>
-                            <a className="project-grid-item" href="https://e-sportagency.com/projects/case-one/">
+                            <a className="project-grid-item" href="https://e-sportagency.com/projects/case-six/">
                                 <div className="prjct-inner-container">
                                     <div className="event-type">
                                         <p>E-SPORT</p>

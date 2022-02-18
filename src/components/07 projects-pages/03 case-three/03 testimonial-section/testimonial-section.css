@@ -1,0 +1,92 @@
+.default-section-test {
+  background-color: #050e1e;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  max-width: 1600px;
+}
+
+.section-title {
+  display: flex;
+  justify-content: center;
+}
+
+.section-title h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.section-title b {
+  color: #1541d1;
+}
+
+.testimonial-container {
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+
+.about-test {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.avatar {
+  width: 140px;
+  height: 140px;
+  border: solid 2px white;
+  border-radius: 100%;
+
+  background-image: url("./../../../../images/tekla-wannberg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.info-test {
+  width: 80%;
+}
+
+.info-test i {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.info b > a {
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 749px) {
+  .default-section-test {
+    padding-top: 15%;
+    padding-bottom: 15%;
+  }
+
+  .section-title h1 {
+    font-size: 35px;
+  }
+
+  .testimonial-container {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .about-test {
+    padding-bottom: 10px;
+  }
+
+  .info-test {
+    width: 100%;
+  }
+}
