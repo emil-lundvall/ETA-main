@@ -44,6 +44,7 @@ function HeaderV2() {
               <li><a data-scroll-nav="12" href="#">About 1.1</a></li>
               <li><a data-scroll-nav="13" href="#">About 1.2</a></li>
               <li><a data-scroll-nav="14" href="#">About 1.3</a></li>
+              <li><a data-scroll-nav="15" href="#">About 1.4</a></li>
               <li><a data-scroll-nav="6" href="#">Try us</a></li>
             </ul>
           </div>
