@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from './../../../images/Our-Story-background.png';
 import './../../../index.css';
 import './../../../App.css';
 import './esport-intro.css';
@@ -50,18 +49,54 @@ offers opportunities to connect and engage with passionate audiences across the 
 
         <div className="info-esports-section" data-scroll-index="13">
             <div className="info-esports-inner-section-one">
-                <div className="esports-title">
-                    <h1>What is E-Sports<b>?</b></h1>
-                </div>
+
                 <div className="esports-right-text-one">
                     <div className="esports-text-one">
                         <div className="et-row-one">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            <div className="esports-title">
+                                <h1>Ok, it’s getting big – but how big<b>?</b></h1>
+                            </div>
+                            <p>Back in 2007, Intel started pushing esports with the first Intel Extreme Masters
+gaming at CEBIT. Moving it towards organised, stadium-based tournaments.<br></br><br></br>
+Since then the worldwide viewership of esports competitions has pushed popularity
+into the mainstream. To the point that Intel even tried to get esports officially recognised by
+the International Olympic Committee by bringing season 12 of the Intel Extreme Masters to
+Pyeongchang during the 2018 Winter Olympics.<br></br><br></br>
+Esports is a continually growing industry, both in popularity and money. In 2017,
+esports had an estimated worldwide revenue of £565 million. In 2021, according to Statista
+the global market for esports was valued at over 1 billion US dollars. Increasing by over 50%
+from the year before.<br></br><br></br>
+
+In 2021 esports had 474 million viewers and for 2022 the prediction is a growth by
+11,5% according to Insider Intelligence’s estimate. This driven in large by video gaming-
+specific streaming platforms like Twitch and YouTube Gaming, that gives fans a direct
+connection to the players and teams.<br></br><br></br>
+According to an Ampere study, Sweden and Denmark are “leading the esports
+viewing” in Europe with 8 – 9 % of of internet users watching on at least a monthly basis.
+Leaving room for growth to reach the worlds top consumer of esports China, with 26% of its
+internet users watching on a monthly basis.<br></br><br></br>
+The European market is far less saturated and is home to many gamers who have yet
+to tap into esports. In total, Europe represented about $138 million of global esports revenues.</p>
                         </div>
                         <div className="et-row-one">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            <div className="esports-title">
+                                <h1>What brands are in the game<b>?</b></h1>
+                            </div>
+                            <p>Besides Intel, Red Bull was a pioneer. The energy drink is a brand that has managed
+to keep itself in the top charts over the years and still remain relevant to consumers globally
+to this date. Already in 2008 it recognized the potential of esports and hosted various events,
+sponsored esports players, partnered with esports clubs, and produced esports videos. Their
+efforts not only contributed to the growth of the industry but they also became an inherent
+part of the market.<br></br><br></br>
+Last year, Louis Vuitton stepped into the esports industry by collaborating with
+League of Legends. They released a fashion line for both in-game assets and a physical
+clothing collection.<br></br><br></br>
+A lot of FMCG, e-tailers and big fastfood brands like, KFC, McDonald’s, Domino’s
+Pizza, Pizza Hut, Panera Bread and Buffalo Wild Wings are already well positioned in the
+space.<br></br><br></br>
+Just in Q3 2021 the following new sponsors move into the space; Amazon (European
+Masters) NASCAR (Allied Esports) Discord (Tribe Gaming) TUMI (Evil Geniuses) Doritos
+(Bacon Time) Mastercard (League of Legends European Championship)</p>
                         </div>
                     </div>
                 </div>
@@ -75,12 +110,22 @@ offers opportunities to connect and engage with passionate audiences across the 
                 </div>
                 <div className="esports-right-text">
                     <div className="esports-title">
-                        <h1>What is E-Sports<b>?</b></h1>
+                        <h1>Is esports right for your brand<b>?</b></h1>
                     </div>
                     <div className="esports-text-two">
                         <div className="et-row-two">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            <p>Esports is adventure, escape, fantasy and competition for digital natives. The most
+engaged fans spend more than seven hours a week consuming esports content, often via new
+nontraditional media. Twitch boasts an engagement rate from its active daily viewers of 106
+minutes per person per day.<br></br><br></br>
+However, esports is not the holy grail for brands just looking to reach new audiences
+or investors looking for a quick return.<br></br><br></br>
+
+Grounding an esports partnership is a thoughtful, step-by-step process and can
+position almost any brand to take advantage of the considerable opportunities that this
+emerging channels has to offer and creating long term value for the brand.<br></br><br></br>
+A chance to connect to a hard-to-reach audience that spends twice the amount of time
+gaming each week as they do watching TV is certainly a challenge.</p>
                         </div>
                     </div>
                 </div>
@@ -94,12 +139,20 @@ offers opportunities to connect and engage with passionate audiences across the 
                         <h1>So you want to become a gamer<b>?</b></h1>
                     </div>
                     <div className="esports-center">
-                        <div className="et-row-two">
-                            <p>&quot;eSports has no barrier to entry. If you&#39;re a gamer, you&#39;re a gamer. If you want to step up your
+                        <p>&quot;eSports has no barrier to entry. If you&#39;re a gamer, you&#39;re a gamer. If you want to step up your
 game and play in a competition you can do so. If you&#39;re really great and you practice a lot
 you might be on a big stage winning a million dollars. And that&#39;s open to everyone in the
 large part. It&#39;s about making opportunities for anyone to do anything.&quot;<br></br><br></br>James Dean, CEO of ESL UK</p>
-                        </div>
+                    </div>
+                    <div className="sources">
+                        <p>Sources: Newzoo, Statista, Forbes, esportinsider, insider intelligence 2021-2022</p>
+                    </div>
+                    <div className="esports-ending">
+                        <p>Esports and game viewing has moved from a nerdy niche to mainstream entertainment.<br></br><br></br>
+
+A lot of people are consuming video game content on a daily basis. In just an average
+week more than 100 million hours of video content are watched among the top 5 games
+on Twitch.</p>
                     </div>
                 </div>
             </div>
