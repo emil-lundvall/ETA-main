@@ -5,6 +5,7 @@ import './../../../App.css';
 import '../../../scroll-it/scrollIt.js';
 import './testimonials.css';
 import Naia from './../../../images/naia-logo.png';
+import Nicks from './../../../images/nicks-logo.png';
 import Foodora from './../../../images/foodora-logo.png';
 import Sebrin from './../../../images/sebrin-poli.jpg';
 import Frida from './../../../images/frida-jonsson.jpg';
@@ -30,7 +31,7 @@ const testimonials = [
         img: Frida,
         brand: {
             name: "Nick's",
-            logo: Naia,
+            logo: Nicks,
             website: "https://nicks.se/"
         },
         desc: {
