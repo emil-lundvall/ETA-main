@@ -206,3 +206,25 @@
     justify-content: center;
   }
 }
+
+@media only screen and (max-width: 666px) {
+  .tm-text-container h1 {
+    font-size: 30px;
+  }
+
+  .select-text-inner h1 {
+    font-size: 20px;
+  }
+
+  .select-text-inner p {
+    font-size: 14px;
+  }
+
+  .tm-selected-inner-item h1 {
+    font-size: 25px;
+  }
+
+  .tm-selected-inner-item p {
+    font-size: 18px;
+  }
+}

@@ -228,3 +228,42 @@
     width: 95%;
   }
 }
+
+@media only screen and (max-width: 666px) {
+  .default-section-team {
+    padding-bottom: 15%;
+  }
+
+  .story-text-container {
+    padding-top: 15%;
+    padding-bottom: 15%;
+  }
+
+  .story-title h1 {
+    font-size: 30px;
+  }
+
+  .story-text h2 {
+    font-size: 18px;
+  }
+
+  .story-text p {
+    font-size: 16px;
+  }
+
+  .team-text-title {
+    padding-top: 15%;
+  }
+
+  .team-text-title h1 {
+    font-size: 30px;
+  }
+
+  .row-two-inner-container-text h1 {
+    font-size: 20px;
+  }
+
+  .row-two-inner-container-text p {
+    font-size: 14px;
+  }
+}

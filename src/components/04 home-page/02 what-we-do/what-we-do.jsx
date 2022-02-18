@@ -38,7 +38,7 @@ function whatWeDo() {
                     <Fade right delay={500}>
                         <div className="mc-text-container">
                             <div className="mc-title-container">
-                                <h1>What we do<b>?</b></h1>
+                                <h1>What we do<b>.</b></h1>
                             </div>
                             <p>We help and support brands by introducing and connecting them to esports and digital entertainment. Developing concepts, activities and events we create new avenues for marketing and promotion.</p>
                             <div className="uc-btn-container">

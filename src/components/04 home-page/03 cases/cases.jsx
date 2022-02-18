@@ -27,7 +27,7 @@ function cases() {
                                     </div>
                                 </div>
                                 <div className="prjct-text-cont">
-                                    <h1>Present the challenge – CASE 1</h1>
+                                    <h1>Present the challenge</h1>
                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                                 </div>
                                 <div className="button-view-more">
@@ -42,7 +42,7 @@ function cases() {
                                     </div>
                                 </div>
                                 <div className="prjct-text-cont">
-                                    <h1>Present the challenge – CASE 2</h1>
+                                    <h1>Present the challenge</h1>
                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                                 </div>
                                 <div className="button-view-more">
@@ -57,7 +57,7 @@ function cases() {
                                     </div>
                                 </div>
                                 <div className="prjct-text-cont">
-                                    <h1>Present the challenge – CASE 3</h1>
+                                    <h1>Present the challenge</h1>
                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                                 </div>
                                 <div className="button-view-more">
@@ -72,7 +72,7 @@ function cases() {
                                     </div>
                                 </div>
                                 <div className="prjct-text-cont">
-                                    <h1>Present the challenge – CASE 4</h1>
+                                    <h1>Present the challenge</h1>
                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                                 </div>
                                 <div className="button-view-more">
@@ -87,7 +87,7 @@ function cases() {
                                     </div>
                                 </div>
                                 <div className="prjct-text-cont">
-                                    <h1>Present the challenge – CASE 5</h1>
+                                    <h1>Present the challenge</h1>
                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                                 </div>
                                 <div className="button-view-more">
@@ -102,7 +102,7 @@ function cases() {
                                     </div>
                                 </div>
                                 <div className="prjct-text-cont">
-                                    <h1>Present the challenge – CASE 6</h1>
+                                    <h1>Present the challenge</h1>
                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                                 </div>
                                 <div className="button-view-more">
