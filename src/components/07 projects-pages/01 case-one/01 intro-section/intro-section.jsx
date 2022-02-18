@@ -12,7 +12,7 @@ function introSection() {
               <p>EVENT</p> {/* Case type example: event, sponsor, influencer and so on */}
             </div>
             <div className='intro-row mid'>
-              <h1>Present the challenge – CASE 1<b>.</b></h1> {/* Title of the case */}
+              <h1>Present the challenge<b>.</b></h1> {/* Title of the case */}
               <h2>Foodora</h2>
             </div>
             <div className='intro-row'>

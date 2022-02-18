@@ -82,17 +82,16 @@
 
 .bg-one {
   width: 70%;
+  min-width: 70%;
   background-color: #050e1e;
   z-index: -2;
 }
 
 .bg-two {
   width: 30%;
+  min-width: 0%;
   background-color: #0a1831;
   z-index: -2;
-}
-
-@media only screen and (max-width: 900px) {
 }
 
 @media only screen and (max-width: 900px) {

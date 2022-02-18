@@ -1,7 +1,7 @@
 .default-section-test {
   background-color: #050e1e;
-  padding-top: 2.5%;
-  padding-bottom: 2.5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,4 +65,28 @@
 
 .info b > a {
   font-weight: 400;
+}
+
+@media only screen and (max-width: 749px) {
+  .default-section-test {
+    padding-top: 15%;
+    padding-bottom: 15%;
+  }
+
+  .section-title h1 {
+    font-size: 35px;
+  }
+
+  .testimonial-container {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .about-test {
+    padding-bottom: 10px;
+  }
+
+  .info-test {
+    width: 100%;
+  }
 }

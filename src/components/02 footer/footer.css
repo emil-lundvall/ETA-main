@@ -323,7 +323,10 @@ form button {
     text-align: center;
   }
 
-  .contact-left,
+  .contact-left {
+    width: 80%;
+  }
+
   .contact-right {
     width: 60%;
   }
