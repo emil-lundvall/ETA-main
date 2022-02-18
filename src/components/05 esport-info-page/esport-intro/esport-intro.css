@@ -194,7 +194,7 @@ b {
   }
 
   .intro-inner-section {
-    width: 95%;
+    width: 80%;
   }
 
   .intro-inner-section p {
@@ -226,5 +226,29 @@ b {
 
   .esports-image-two {
     min-height: 400px;
+  }
+}
+
+@media only screen and (max-width: 666px) {
+  .intro-inner-section h1 {
+    font-size: 35px;
+    line-height: 35px;
+    padding-bottom: 3%;
+  }
+
+  .intro-inner-section p {
+    font-size: 18px;
+  }
+
+  .esports-title h1 {
+    font-size: 30px;
+  }
+
+  .et-row-one p {
+    font-size: 15px;
+  }
+
+  .et-row-two p {
+    font-size: 15px;
   }
 }
