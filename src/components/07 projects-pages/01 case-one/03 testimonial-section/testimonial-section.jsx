@@ -1,7 +1,6 @@
 import React from 'react';
 import './testimonial-section.css';
 import './../../../../App.css'
-import Tekla from './../../../../images/tekla-wannberg.jpg';
 
 function testimonialSection() {
     return (
