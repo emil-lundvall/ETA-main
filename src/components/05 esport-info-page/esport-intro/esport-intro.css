@@ -158,6 +158,30 @@ b {
   box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 2px 2px;
 }
 
+.esports-center-text {
+  width: 100%;
+}
+
+.esports-title-center {
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.esports-title-center h1 {
+  font-size: 40px;
+  width: 60%;
+}
+
+.esports-center {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.esports-center p {
+  width: 55%;
+}
+
 @media only screen and (max-width: 1150px) {
   .info-esports-inner-section {
     width: 90%;
