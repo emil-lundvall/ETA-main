@@ -58,13 +58,10 @@
   width: 80%;
 }
 
-.info-test i {
+.info-test p {
   font-weight: 300;
   font-size: 15px;
-}
-
-.info b > a {
-  font-weight: 400;
+  padding-bottom: 12px;
 }
 
 @media only screen and (max-width: 749px) {
