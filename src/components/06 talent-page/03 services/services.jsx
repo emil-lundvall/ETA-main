@@ -41,29 +41,7 @@ function services() {
                                         <h1>Analysis & alignement</h1>
                                     </div>
                                     <div className="grid-item-row-3">
-                                        <p>Matching Brands with the right talent.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="lower-grid-item">
-                                <div className="grid-item-container">
-                                    <div className="grid-item-row-1"><img className="grid-icon" src={two}></img></div>
-                                    <div className="grid-item-row-2">
-                                        <h1>Esport Team Development</h1>
-                                    </div>
-                                    <div className="grid-item-row-3">
-                                        <p>Talent- and team identification. Team building, Training and Infrastructure investments.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="lower-grid-item">
-                                <div className="grid-item-container">
-                                    <div className="grid-item-row-1"><img className="grid-icon" src={three}></img></div>
-                                    <div className="grid-item-row-2">
-                                        <h1>Merchandising & Licensing</h1>
-                                    </div>
-                                    <div className="grid-item-row-3">
-                                        <p>Develop concepts and partnerships that generate revenue and consumer loyalty for all parties.</p>
+                                        <p>Matching you as a talent with the right mainstream Brands</p>
                                     </div>
                                 </div>
                             </div>
@@ -74,7 +52,7 @@ function services() {
                                         <h1>Ambassador programs</h1>
                                     </div>
                                     <div className="grid-item-row-3">
-                                        <p>Tailor made with a long term perspective to increase Brand visibility and public likability.</p>
+                                        <p>Tailor made with a long term perspective to increase Brand visibility and public likability through various promotions.</p>
                                     </div>
                                 </div>
                             </div>
@@ -91,56 +69,12 @@ function services() {
                             </div>
                             <div className="lower-grid-item">
                                 <div className="grid-item-container">
-                                    <div className="grid-item-row-1"><img className="grid-icon" src={six}></img></div>
-                                    <div className="grid-item-row-2">
-                                        <h1>Original content</h1>
-                                    </div>
-                                    <div className="grid-item-row-3">
-                                        <p>We bring your brand to life with custom made content geared towards specific audiences you want to reach.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="lower-grid-item">
-                                <div className="grid-item-container">
-                                    <div className="grid-item-row-1"><img className="grid-icon" src={seven}></img></div>
-                                    <div className="grid-item-row-2">
-                                        <h1>Endorsement programs</h1>
-                                    </div>
-                                    <div className="grid-item-row-3">
-                                        <p>The luxury of trust - get our talent to support your product’s features, quality, benefits and/or brand.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="lower-grid-item">
-                                <div className="grid-item-container">
                                     <div className="grid-item-row-1"><img className="grid-icon" src={eight}></img></div>
                                     <div className="grid-item-row-2">
                                         <h1>Influencer programs</h1>
                                     </div>
                                     <div className="grid-item-row-3">
-                                        <p>Tailor made social media marketing programs. Make our talents expert level of knowledge andsocial influence in their field work for you.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="lower-grid-item">
-                                <div className="grid-item-container">
-                                    <div className="grid-item-row-1"><img className="grid-icon" src={nine}></img></div>
-                                    <div className="grid-item-row-2">
-                                        <h1>Promotions</h1>
-                                    </div>
-                                    <div className="grid-item-row-3">
-                                        <p>Let our talents get your brand, product or service moving now. Get attention and drive action.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="lower-grid-item">
-                                <div className="grid-item-container">
-                                    <div className="grid-item-row-1"><img className="grid-icon" src={ten}></img></div>
-                                    <div className="grid-item-row-2">
-                                        <h1>Events</h1>
-                                    </div>
-                                    <div className="grid-item-row-3">
-                                        <p>From small happenings to big arena events, we create rich experiences that connect with consumers in innovative and lasting ways.</p>
+                                        <p>Tailor made social media marketing programs. Let your expert level of knowledge and social  influence work for brands you like and love.</p>
                                     </div>
                                 </div>
                             </div>
@@ -151,7 +85,7 @@ function services() {
                                         <h1>Management</h1>
                                     </div>
                                     <div className="grid-item-row-3">
-                                        <p>For brands we provide a wide range of management services for events, projects and programs.</p>
+                                        <p>For talents we provide a wide range of management services for career development.</p>
                                     </div>
                                 </div>
                             </div>
@@ -173,7 +107,7 @@ function services() {
                                         <h1>Sponsorship</h1>
                                     </div>
                                     <div className="grid-item-row-3">
-                                        <p>Get an instant boost with our short or long-term programs and packages available for events, teams and individual talent.</p>
+                                        <p>Short or long-term programs and packages with brands, available for events, teams and individual talent. </p>
                                     </div>
                                 </div>
                             </div>
@@ -185,17 +119,6 @@ function services() {
                                     </div>
                                     <div className="grid-item-row-3">
                                         <p>Get our advice on how to concentrate your resources on the best opportunities to achieve the greatest outcome.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="lower-grid-item">
-                                <div className="grid-item-container">
-                                    <div className="grid-item-row-1"><img className="grid-icon" src={fifteen}></img></div>
-                                    <div className="grid-item-row-2">
-                                        <h1>Tournaments</h1>
-                                    </div>
-                                    <div className="grid-item-row-3">
-                                        <p>We will create a custom made experince - making your brand shine at National and International Tournaments.</p>
                                     </div>
                                 </div>
                             </div>
