@@ -106,7 +106,7 @@
 .lower-grid-container {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
   grid-gap: 35px;
   grid-auto-flow: dense;
 }
@@ -251,7 +251,7 @@
   .lower-grid-container {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
     grid-gap: 15px;
     grid-auto-flow: dense;
   }
