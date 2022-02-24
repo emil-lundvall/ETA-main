@@ -11,18 +11,17 @@ function introSection() {
         <div className="row-container">
           <Fade top>
             <div className='intro-row'>
-              <p>EVENT</p> {/* Case type example: event, sponsor, influencer and so on */}
+              <p>TWITCH.TV</p> {/* Case type example: event, sponsor, influencer and so on */}
             </div>
           </Fade>
           <Fade>
             <div className='intro-row mid'>
-              <h1>Present the challenge<b>.</b></h1> {/* Title of the case */}
-              <h2>Foodora</h2>
+              <h1>FOODORA - FAN ACTIVATION<b>.</b></h1> {/* Title of the case */}
             </div>
           </Fade>
           <Fade bottom>
             <div className='intro-row'>
-              <p>2022-02-14</p> {/* Date when case was created */}
+              <p>December 2021</p> {/* Date when case was created */}
             </div>
           </Fade>
         </div>

@@ -70,13 +70,13 @@ function Testimonials() {
         const timeout = setTimeout(() => {
             const index = selected === testimonials.length - 1 ? 0 : selected + 1;
             setSelected(index);
-        }, 15000)
+        }, 10000)
 
         setTimeoutId(timeout);
     }, [selected])
 
     return (
-        <div className="default-section review" data-scroll-index="3">
+        <div className="default-section review" data-scroll-index="19">
             <div className="default-inner-section">
                 <div className="tm-text-container">
                     <Zoom>

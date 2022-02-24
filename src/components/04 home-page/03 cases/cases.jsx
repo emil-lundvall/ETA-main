@@ -22,13 +22,13 @@ function cases() {
                             <a className="project-grid-item" href="https://e-sportagency.com/projects/case-one/">
                                 <div className="prjct-inner-container">
                                     <div className="event-type">
-                                        <p>E-SPORT</p>
-                                        <p>TOURNAMENT</p>
+                                        <p>TWITCH.TV</p>
+                                        <p>FAN ACTIVATION</p>
                                     </div>
                                 </div>
                                 <div className="prjct-text-cont">
-                                    <h1>Present the challenge</h1>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                    <h1>Foodora</h1>
+                                    <p>Foodora wanted to get more new customers. They had for a while been curious about the opportunities to target the gaming segment.</p>
                                 </div>
                                 <div className="button-view-more">
                                     <a>View case details<li></li></a>

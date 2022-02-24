@@ -4,6 +4,9 @@ import '../../scroll-it/scrollIt.js';
 import './footer.css';
 import ContactUs from './ContactUs.jsx';
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import Email from './../../icons/lordicon/email.gif';
+import Location from './../../icons/lordicon/location.gif';
+import Phone from './../../icons/lordicon/phone.gif';
 import Popup from './Popup';
 import Fade from "react-reveal/Fade";
 import Zoom from "react-reveal/Zoom";
@@ -29,22 +32,22 @@ function Footer() {
                             <div className="cl-contact-info-container">
                                 <div className="cl-contact-info-inner-container">
                                     <Fade left delay={500}>
-                                        <a className="cl-contact-item">
-                                            <i className="bi bi-telephone-fill"></i>
+                                        <a className="cl-contact-item" href="tel:+46735083363">
+                                            <img src={Phone} />
                                             <p>+46 73 508 33 63</p>
                                         </a>
                                     </Fade>
 
                                     <Fade left delay={500}>
-                                        <a className="cl-contact-item">
-                                            <i className="bi bi-envelope-fill"></i>
+                                        <a className="cl-contact-item" href="mailto:info@e-sportagency.com">
+                                            <img src={Email} />
                                             <p>info@e-sportagency.com</p>
                                         </a>
                                     </Fade>
 
                                     <Fade left delay={500}>
-                                        <a className="cl-contact-item">
-                                            <i className="bi bi-geo-alt-fill"></i>
+                                        <a className="cl-contact-item" href="https://www.google.com/maps/place/%C3%96stermalmsgatan+87c,+114+59+Stockholm/@59.3403422,18.086227,18.25z/data=!4m5!3m4!1s0x465f9d45f3fc7355:0x1a53f28646ad80e2!8m2!3d59.3405098!4d18.0868891?hl=sv" target="_blank">
+                                            <img src={Location} />
                                             <p>Östermalmsgatan 87 C<br></br> 114 59 Stockholm</p>
                                         </a>
                                     </Fade>
@@ -77,7 +80,7 @@ function Footer() {
             <div className="footer-container">
                 <div className="footer-upper-container">
                     <div className="footer-upper-inner-container">
-                        <i>"Get in the game!"</i>
+                        <i>Get in the Game!</i>
                     </div>
                 </div>
                 <div className="copyright-footer">

@@ -1,0 +1,161 @@
+.home {
+  height: 100vh;
+  min-height: 750px;
+}
+
+.home-background {
+  background: linear-gradient(
+    351deg,
+    rgba(5, 14, 30, 1) 0%,
+    rgba(12, 36, 107, 1) 52%,
+    rgb(13, 39, 126) 83%,
+    rgb(21, 50, 146) 100%
+  );
+  z-index: -2;
+  width: 100vw;
+  height: 100vh;
+  min-height: 750px;
+  position: absolute;
+  opacity: 85%;
+}
+
+.home-video {
+  z-index: -3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  min-height: 750px;
+  width: 100vw;
+  object-fit: cover;
+  object-position: center;
+}
+
+.home-left-container {
+  width: 56%;
+}
+
+.home-right-container {
+  width: 44%;
+}
+
+.home-text-container {
+  margin-bottom: 2.5rem;
+}
+
+.home-text-title {
+  display: flex;
+  gap: 0.05em;
+}
+
+.home-text-title h1,
+.home-text-title b {
+  font-size: 60px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.home-text-title b {
+  color: #1541d1;
+}
+
+.home-text-container p {
+  font-size: 22px;
+  font-weight: 500;
+  color: #d8d8d8;
+  width: 85%;
+}
+
+.home-buttons-container {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.home-buttons-container > a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 125ms;
+  border: 1px solid white;
+
+  display: flex;
+  justify-content: center;
+}
+
+.home-buttons-container a:hover {
+  border: 1px solid white;
+  background-color: white;
+  color: #000;
+}
+
+.active-btn {
+  border: 1px solid #1541d1 !important;
+  background-color: #1541d1;
+}
+
+.active-btn:hover {
+  border: 1px solid #1541d1 !important;
+  background-color: #002a613a !important;
+  color: unset !important;
+}
+
+/*
+.help-btn {
+  border: solid 1px #1541d1;
+  background-color: #1541d1;
+}
+
+.help-btn {
+  border: solid 1px #66A0ED;
+}
+
+.contact-btn {
+  /* border: solid 1px white; 
+  background-color: none;
+}
+
+.contact-btn:hover {
+  background-color: rgb(255 255 255 / 0.5);
+  color: #fff;
+}
+*/
+
+@media only screen and (max-width: 1150px) {
+  .home-left-container {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .default-inner-section {
+    width: 98%;
+  }
+
+  .home-left-container {
+    width: 100%;
+  }
+
+  .home-text-title h1 {
+    font-size: 45px;
+  }
+
+  .home-text-title b {
+    font-size: 45px;
+  }
+}
+
+@media only screen and (max-width: 666px) {
+  .home-text-title h1 {
+    font-size: 35px;
+  }
+
+  .home-text-container p {
+    font-size: 18px;
+  }
+}

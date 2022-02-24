@@ -68,7 +68,9 @@
   border: solid 2px #1541d1;
 }
 
-.cl-contact-item i {
+.cl-contact-item img {
+  width: 40px;
+  height: auto;
   color: #1541d1;
   font-size: 20px;
   margin-right: 15px;

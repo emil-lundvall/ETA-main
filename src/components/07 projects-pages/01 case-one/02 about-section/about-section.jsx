@@ -16,7 +16,7 @@ function aboutSection() {
               <div className="text">
                 <h1>Challenge<b>.</b></h1>
                 <Fade left>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                  <p>Foodora wanted to get more new customers. They had for a while been curious about the opportunities to target the gaming segment.</p>
                 </Fade>
               </div>
             </div>
@@ -28,7 +28,11 @@ function aboutSection() {
               <div className="text">
                 <h1>Solution<b>.</b></h1>
                 <Fade left>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                  <p>Together we developed a new customer acquisition tactic. After an initial brand analyzis we
+selected streamers from our talent pool that were on brand and had the reach and audience
+base matching the brand’s needs. Then we created a mix of services, endorsements,
+brand integration and sales driving promotions including a unique identifier, making it
+possible to measure how we delivered against KPI and goals.</p>
                 </Fade>
               </div>
             </div>
@@ -40,7 +44,7 @@ function aboutSection() {
               <div className="text">
                 <h1>Result<b>.</b></h1>
                 <Fade left>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                  <p>In one month the activity delivered 2100+ new customers to Foodora.</p>
                 </Fade>
               </div>
             </div>
