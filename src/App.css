@@ -47,6 +47,12 @@ b {
   align-items: center;
 }
 
+.default-section-what-we-do {
+  min-height: 100vh;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
 .default-inner-section {
   width: 80%;
   max-width: 1600px;

@@ -76,7 +76,7 @@ function Testimonials() {
     }, [selected])
 
     return (
-        <div className="default-section review" data-scroll-index="19">
+        <div className="default-section t-review" data-scroll-index="19">
             <div className="default-inner-section">
                 <div className="tm-text-container">
                     <Zoom>

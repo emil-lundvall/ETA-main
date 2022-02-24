@@ -1,0 +1,94 @@
+.what-we-do-text-container h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.default-step-row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 3.5%;
+}
+
+.inner-step-flex {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-text-step {
+  width: 50%;
+
+  border-left: solid 1px rgba(255, 255, 255, 0.1);
+  padding-left: 10px;
+}
+
+.item-text-step h1 {
+  font-size: 30px;
+}
+
+.item-text-step p {
+  opacity: 80%;
+}
+
+.item-img-container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-img-step {
+  background-image: url(./../../../images/Esports-Info-background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 13px;
+  width: 60%;
+  height: 150%;
+}
+
+@media only screen and (max-width: 1600px) {
+  .inner-step-flex {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1140px) {
+  .item-img-container {
+    display: none;
+    visibility: hidden;
+  }
+
+  .inner-step-flex {
+    display: flex;
+    justify-content: center;
+  }
+
+  .item-text-step {
+    width: 90%;
+  }
+
+  .default-step-row {
+    padding: 2%;
+  }
+}
+
+@media only screen and (max-width: 666px) {
+  .inner-step-flex {
+    width: 95%;
+  }
+
+  .what-we-do-text-container h1 {
+    font-size: 30px;
+  }
+
+  .item-text-step h1 {
+    font-size: 23px;
+  }
+}
+
+@media only screen and (max-width: 525px) {
+}

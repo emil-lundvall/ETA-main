@@ -5,10 +5,18 @@ import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
 import img1 from "../../../../images/case-one/1.png";
 import img2 from "../../../../images/case-one/2.jpg";
+import img3 from "../../../../images/case-one/3.png";
+import img4 from "../../../../images/case-one/4.png";
+import img5 from "../../../../images/case-one/5.png";
+import img6 from "../../../../images/case-one/6.png";
 
 const images = [
   img1,
-  img2
+  img2,
+  img3,
+  img4,
+  img5,
+  img6
 ]
 
 function GallerySection() {

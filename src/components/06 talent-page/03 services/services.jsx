@@ -22,7 +22,7 @@ import Zoom from "react-reveal/Zoom";
 
 function services() {
     return (
-        <div className="default-section services" data-scroll-index="18">
+        <div className="default-section t-services" data-scroll-index="18">
             <div className="default-inner-section">
                 <div className="project-text-container">
                     <div className="project-text-inner-container">

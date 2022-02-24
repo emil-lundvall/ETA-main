@@ -23,7 +23,7 @@ function home() {
                     <div className="home-buttons-container">
                         <Fade bottom delay={750}>
                             <a className="active-btn" href="https://e-sportagency.com/">For Brands</a>
-                            <a href="#">For Talents (Coming soon)</a>
+                            <a href="#">For Talents</a>
                         </Fade>
                     </div>
                 </div>

@@ -1,4 +1,4 @@
-.services {
+.t-services {
   background-color: #050e1e;
   z-index: 1;
 }
@@ -229,6 +229,10 @@
 }
 
 @media only screen and (max-width: 666px) {
+  .project-text-inner-container h1 {
+    font-size: 30px;
+  }
+
   .uc-title-container h1 {
     font-size: 30px;
   }
