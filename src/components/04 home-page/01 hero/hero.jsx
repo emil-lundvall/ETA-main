@@ -3,7 +3,7 @@ import './../../../App.css';
 import '../../../scroll-it/scrollIt.js';
 import './hero.css';
 import Fade from "react-reveal/Fade";
-import backgroundVideo from './../../../videos/background.mp4';
+import backgroundVideo from './../../../videos/background-v2.mp4';
 
 function home() {
     return (
@@ -28,7 +28,6 @@ function home() {
                     </div>
                 </div>
             </div>
-            <div className="home-background"></div>
             <video autoPlay muted loop className="home-video">
                 <source src={backgroundVideo} type="video/mp4" />
             </video>
