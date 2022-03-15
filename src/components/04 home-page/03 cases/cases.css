@@ -74,6 +74,7 @@
   border-radius: 13px;
   transition: 0.8s;
   cursor: pointer;
+  max-width: 479px; /* current style, remove when add more cases (minimum 3 cases).*/
 }
 
 .project-grid-item:hover {
