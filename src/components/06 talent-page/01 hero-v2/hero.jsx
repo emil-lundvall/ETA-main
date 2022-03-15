@@ -34,7 +34,7 @@ revenue for brands and talent.</p>
                 </div>
             </div>
             <div className="video-overlay"></div>
-            <video autoPlay muted loop className="home-video">
+            <video autoPlay playsinline muted loop preload="metadata" className="home-video">
                 <source src={backgroundVideo} type="video/mp4;charset=UTF-8" />
             </video>
         </div>
