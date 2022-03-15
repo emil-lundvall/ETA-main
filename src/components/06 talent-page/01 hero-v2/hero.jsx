@@ -3,7 +3,7 @@ import './../../../App.css';
 import '../../../scroll-it/scrollIt.js';
 import './hero.css';
 import Fade from "react-reveal/Fade";
-import backgroundVideo from './../../../videos/background-v2.mp4';
+import backgroundVideo from './../../../videos/E-BrokR website video 1080p.mp4';
 
 function home() {
     return (
