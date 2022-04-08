@@ -24,7 +24,7 @@ function testimonialSection() {
               <p>"ETA have with their expertise helped us market ourselves through various activations on the relevant gaming platforms. We have together set up clear measurable KPIs that are also fulfilled. Very satisfied with our collaboration."</p>
             </Fade>
             <Fade bottom>
-              <p><b>Tekla Wannberg - Social Media Manager</b></p>
+              <p><b>Tekla Wannberg - Marketing Manager</b></p>
             </Fade>
           </div>
         </div>
